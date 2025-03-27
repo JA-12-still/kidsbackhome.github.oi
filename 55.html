@@ -1,0 +1,200 @@
+<html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>宝贝回家</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link href="style.css"   rel="stylesheet">
+<script src="jquery.js"  ></script>
+<script src="pic.js"  ></script>
+<script src="inc.js"  ></script>
+<script src="newspic.js"   ></script>
+<script src="search.js"  ></script>
+<script src="doublescroll.js"   ></script>
+<script src="jquery.validator.js"  ></script>
+<script src="zh_cn.js"  ></script>
+<script src="mobile.js"  ></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+<!--页头开始--> 
+<div class="header"> 
+  <!--顶部开始-->
+  <div class="top">
+    <div class="topCon clear-fix">
+      <ul class="topConNav">
+        <li><a title="人才招聘" href="index-1.htm"   >人才招聘</a></li> 
+        <li><a title="联系我们" href="index-2.htm"   >联系我们</a></li>
+      </ul>
+      <div class="logo"><a href="index.htm"    title="宝贝回家"> <IMG src="logo.png"    width="210" height="195" alt="宝贝回家"></a></div>
+    </div>
+  </div>
+  <!--顶部结束--> 
+  
+  <!--导航开始-->
+  <div class="navgrp">
+    <ul class="nav">
+      <li><a href="index.htm"    title="网站首页"><span>home</span>网站首页</a></li>
+      <li><a href="index-3-1.htm"    title="关于我们"><span>ABOUT US</span>关于我们</a></li>
+      <li><a href="index-4.htm"    title="走失预防"><span>PRODUCTS</span>走失预防</a></li>
+      <li><a href="index-6.htm"    title="案例展示"><span>WORKSHOP</span>案例展示</a></li>
+      <li><a href="index-7.htm"    title="隐私政策"><span>NEWS</span>隐私政策</a></li>
+      <li><a href="index-8.htm"    title="在线留言"><span>Message</span>在线留言</a></li>
+    </ul>
+  </div>
+  <!--导航结束--> 
+  
+  <!--幻灯片图片开始-->
+  
+  <link href="lrtk.css"   rel="stylesheet">
+  <script src="index_solid.js"  ></script>
+  <DIV id=banner>
+    <DIV id=ifocus>
+      <DIV style="OVERFLOW: hidden" id=ifocus_pic>
+        <DIV style="OVERFLOW: hidden; TOP: 0px; LEFT: 0px" id=ifocus_piclist>
+          <UL>
+            <li><a href="javascript:;" target="_blank"><IMG src="04.png"  ></a></li>
+              <li><a href="javascript:;" target="_blank"><IMG src="03.jpg"  ></a></li>
+            </UL>
+          </DIV>
+          <DIV id=ifocus_opdiv></DIV>
+          <!--小图列表-->
+          <DIV id=ifocus_tx>
+            <UL>
+              <LI class=current>
+              <LI class=normal> </LI>
+            </UL>
+          </DIV>
+          <!--小图列表-->
+          <DIV id="ifocus_btn" >
+            <UL id="ifocus_btnUl">
+              <li class="current"><IMG src="04.png"  ></li>
+              <li ><IMG src="03.jpg"  ></li>
+          </UL>
+        </DIV>
+      </DIV>
+    </DIV>
+  </DIV>
+  <script type="text/javascript">
+	var width = (document.getElementById("ifocus_btn").offsetWidth-1000)/2;
+	var obj = document.getElementById('ifocus_btnUl');
+	obj.style.cssText = "width:800px;margin:0 auto";
+</script> 
+  <!--幻灯片图片结束--> 
+</div>
+ 
+<!--页头结束-->
+<div class="main"> <div class="left_main"> 
+  
+  <!--产品分类开始-->
+  <div class="procla">
+    <div class="procla_title">社会协助</div>
+    <div class="procla_list">
+      <ul>
+        
+        <li><a href="index-9.htm"   title="温暖志愿者">温暖志愿者</a></li>
+        
+        <li><a href="index-10.htm"   title="社会新闻">社会新闻</a></li>
+        
+        <li><a href="index-11.htm"   title="注爱捐款">注爱捐款</a></li>
+        
+        <li><a href="index-12.htm"   title="爱心法律援助">爱心法律援助</a></li>
+        
+      </ul>
+    </div>
+  </div>
+  <!--产品分类结束--> 
+  
+  <!--最新资讯开始-->
+  <div class="leftnews_title">最新资讯</div>
+  <div class="leftnews_list">
+    <ul>
+<li><a href="2.html"   title="38年寻家，母子团圆">38年寻家，母子团圆</a></li>
+<li><a href="4.html"   title="一气离亲人 流落廿六秋">一气离亲人 流落廿六秋</a></li>
+<li><a href="5.html"   title="深负重致远志不渝 赠人玫瑰留沁香">深负重致远志不渝 赠人玫瑰留沁香</a></li>
+<li><a href="55.html"   title="八年寻亲梦圆">八年寻亲梦圆</a></li>
+
+    </ul>
+  </div>
+  <!--最新资讯结束--> 
+  
+  <!--联系我们开始-->
+  <div class="leftnews_title">联系我们</div>
+  <div class="contactleft">
+    <div class="conleft_title">全国服务热线:</div>
+    <div class="conleft_list"> <span>123-456-7890</span>
+      
+      <dl>
+        <dt>手机：</dt>
+        <dd>138-8888-8888
+      </dl>
+      </dd>
+      <dl>
+        <dt>电话：</dt>
+        <dd>400-0000-9988</dd>
+      </dl>
+      <dl>
+        <dt>邮箱：</dt>
+        <dd>support@baobeihuijia.com</dd>
+      </dl>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <!--联系我们结束--> 
+</div>
+ 
+  <!--文章内容开始-->
+  <div class="main_con">
+    <div class="mainConTitle"> <span class="title">案例展示</span> <span class="position">当前位置：<a href="javascript:if(confirm('http://127.0.0.32/  \n\n�ļ���δ�� Teleport Pro ȡ�أ���Ϊ �������·��������ʼ��ַ�����õķ�Χ��  \n\n��Ҫ�ӷ������ϴ�����'))window.location='http://127.0.0.32/'" >主页</a> > 新闻资讯<a href="index-4.htm"  ></a> > </span></div>
+    <div class="mainContect">
+      <div class="title">八年寻亲梦圆<span>添加时间：2024-12-23</span></div>
+      <div class="con">
+        <div class="pb">
+          <div class="pagebox">
+            <p>
+              <br />截止2024年，刘苏亮在宝贝回家已经登记了整整8个年头，8年来，他的跟进志愿者卫兵想尽了各种办法，比对了数个疑似家寻，始终没有眉目。直到今年的3月，事情才有了转机。
+
+              <br />       刘苏亮的身世，有两种说法，一说是从河北邯郸抱来的，当时只有12天大，有四五个亲生哥哥；另一说是当年在北京某部队当后勤兵的陈某抱来的，有两个哥哥。刘苏亮不知道该相信哪一种，两种说法里，他的出生日期都是1983年，这一点是相同的。
+
+              <br />       2016年发帖后，卫兵就发现论坛的家寻尚某与刘苏亮有相似之处，但经过跟进志愿者恩心的协助比对，排除了刘苏亮是尚某的可能性；再后来，卫兵又发现一个家寻送养的孩子可能是刘苏亮，对方的跟进志愿者秋之悦和家长联系后， DNA鉴定再次排除。从那以后，刘苏亮就再也没有出现过疑似家寻，他的寻亲止步不前。
+
+              <br />       2023年12月，卫兵与刘苏亮爱人联系，商议后决定让刘苏亮再次采血，提交网站排查。几个月后，志愿者大虫发来线索：河北邯郸肥乡镇某村王家，有可能是刘苏亮的亲人。这条线索与刘苏亮了解到的第一种说法吻合，卫兵感觉，这个王家，很有可能就是刘苏亮家。
+
+              <br />       卫兵联系自己的亲戚，辗转找到了其中一个疑似人王先生的电话，拜托邯郸志愿者糊涂哥帮忙联系。果然，2月29日，糊涂哥就带来了好消息，他的一位战友霍先生经过查访找到了村干部，村干部确认，村民王京玉早年送养过一个孩子，并提供了电话。接到霍先生发来的信息，糊涂哥第一时间拨打电话，据王京玉所述，其子王小五，1983年出生，当时家里孩子多，生活困难，无奈之下，王京玉夫妻请邻居帮忙，将王小五送给了他人抚养。后来夫妻俩也委托人打听过孩子的下落，遗憾的是始终没有消息，王京玉妻子未及孩子归来便已离世，临终也没能放下对小五的牵挂。
+
+              <br />       初步确认双方高度疑似后，糊涂哥与卫兵商议着指导王京玉采血事宜，原本两位志愿者考虑老人年纪大了，出行不便，准备上门指导，未曾想，多年思子心切的老人等不及糊涂哥，直接让三儿子开车送他来到糊涂哥的单位，在最短时间内完成了血样采集的工作。
+
+              <br />       4月8日，DNA鉴定结果显示，刘苏亮的DNA与父亲、哥哥比对成功。5月18日，刘苏亮与妻子带着两个孩子，从山东济宁回到邯郸，那个一出生就与亲人天各一方的襁褓婴儿，终于在41年后重回故乡。
+
+            </p>
+            <div align="center"></div>
+          </div>
+        </div>
+      </div>
+      <div class="pgfy">
+        <div class="pgfyl">
+          <p class="last"><a href="5.html"  >上一篇：深负重致远志不渝 赠人玫瑰留沁香</a></p>
+          <p class="next"><a href="16.html"  >下一篇：锦旗背后的专注寻亲团圆</a> </p>
+        </div>
+        <div class="pgfyr"><a href="index-9.htm"   title="[返回列表]">[返回列表]</a> </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+  <!--文章内容结束-->
+  <div class="clear"></div>
+</div>
+<!--页尾开始--> 
+<div class="footer"> 
+  
+  <div class="copyright">
+    <div class="copyrightnr"> 地址：这里是您的公司地址　　电话：400-0000-9988　　手机：138-8888-9988<br />
+    <div class="clear"></div>
+  </div>
+</div>
+ 
+<!--页尾结束-->
+</body>
+</html>

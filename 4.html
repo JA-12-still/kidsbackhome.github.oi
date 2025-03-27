@@ -1,0 +1,211 @@
+<html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>宝贝回家</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link href="style.css"   rel="stylesheet">
+<script src="jquery.js"  ></script>
+<script src="pic.js"  ></script>
+<script src="inc.js"  ></script>
+<script src="newspic.js"   ></script>
+<script src="search.js"  ></script>
+<script src="doublescroll.js"   ></script>
+<script src="jquery.validator.js"  ></script>
+<script src="zh_cn.js"  ></script>
+<script src="mobile.js"  ></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+<!--页头开始--> 
+<div class="header"> 
+  <!--顶部开始-->
+  <div class="top">
+    <div class="topCon clear-fix">
+      <ul class="topConNav">
+        <li><a title="人才招聘" href="index-1.htm"   >人才招聘</a></li> 
+        <li><a title="联系我们" href="index-2.htm"   >联系我们</a></li>
+      </ul>
+      <div class="logo"><a href="index.htm"    title="宝贝回家"> <IMG src="logo.png"    width="210" height="195" alt="宝贝回家"></a></div>
+    </div>
+  </div>
+  <!--顶部结束--> 
+  
+  <!--导航开始-->
+  <div class="navgrp">
+    <ul class="nav">
+      <li><a href="index.htm"    title="网站首页"><span>home</span>网站首页</a></li>
+      <li><a href="index-3-1.htm"    title="关于我们"><span>ABOUT US</span>关于我们</a></li>
+      <li><a href="index-4.htm"    title="走失预防"><span>PRODUCTS</span>走失预防</a></li>
+      <li><a href="index-6.htm"    title="案例展示"><span>WORKSHOP</span>案例展示</a></li>
+      <li><a href="index-7.htm"    title="隐私政策"><span>NEWS</span>隐私政策</a></li>
+      <li><a href="index-8.htm"    title="在线留言"><span>Message</span>在线留言</a></li>
+    </ul>
+  </div>
+  <!--导航结束--> 
+  
+  <!--幻灯片图片开始-->
+  
+  <link href="lrtk.css"   rel="stylesheet">
+  <script src="index_solid.js"  ></script>
+  <DIV id=banner>
+    <DIV id=ifocus>
+      <DIV style="OVERFLOW: hidden" id=ifocus_pic>
+        <DIV style="OVERFLOW: hidden; TOP: 0px; LEFT: 0px" id=ifocus_piclist>
+          <UL>
+            <li><a href="javascript:;" target="_blank"><IMG src="04.png"  ></a></li>
+              <li><a href="javascript:;" target="_blank"><IMG src="03.jpg"  ></a></li>
+            </UL>
+          </DIV>
+          <DIV id=ifocus_opdiv></DIV>
+          <!--小图列表-->
+          <DIV id=ifocus_tx>
+            <UL>
+              <LI class=current>
+              <LI class=normal> </LI>
+            </UL>
+          </DIV>
+          <!--小图列表-->
+          <DIV id="ifocus_btn" >
+            <UL id="ifocus_btnUl">
+              <li class="current"><IMG src="04.png"  ></li>
+              <li ><IMG src="03.jpg"  ></li>
+          </UL>
+        </DIV>
+      </DIV>
+    </DIV>
+  </DIV>
+  <script type="text/javascript">
+	var width = (document.getElementById("ifocus_btn").offsetWidth-1000)/2;
+	var obj = document.getElementById('ifocus_btnUl');
+	obj.style.cssText = "width:800px;margin:0 auto";
+</script> 
+  <!--幻灯片图片结束--> 
+</div>
+ 
+<!--页头结束-->
+<div class="main"> <div class="left_main"> 
+  
+  <!--产品分类开始-->
+  <div class="procla">
+    <div class="procla_title">社会协助</div>
+    <div class="procla_list">
+      <ul>
+        
+        <li><a href="index-9.htm"   title="温暖志愿者">温暖志愿者</a></li>
+        
+        <li><a href="index-10.htm"   title="社会新闻">社会新闻</a></li>
+        
+        <li><a href="index-11.htm"   title="注爱捐款">注爱捐款</a></li>
+        
+        <li><a href="index-12.htm"   title="爱心法律援助">爱心法律援助</a></li>
+        
+      </ul>
+    </div>
+  </div>
+  <!--产品分类结束--> 
+  
+  <!--最新资讯开始-->
+  <div class="leftnews_title">最新资讯</div>
+  <div class="leftnews_list">
+    <ul>
+<li><a href="2.html"   title="38年寻家，母子团圆">38年寻家，母子团圆</a></li>
+<li><a href="4.html"   title="一气离亲人 流落廿六秋">一气离亲人 流落廿六秋</a></li>
+<li><a href="5.html"   title="深负重致远志不渝 赠人玫瑰留沁香">深负重致远志不渝 赠人玫瑰留沁香</a></li>
+<li><a href="55.html"   title="八年寻亲梦圆">八年寻亲梦圆</a></li>
+
+    </ul>
+  </div>
+  <!--最新资讯结束--> 
+  
+  <!--联系我们开始-->
+  <div class="leftnews_title">联系我们</div>
+  <div class="contactleft">
+    <div class="conleft_title">全国服务热线:</div>
+    <div class="conleft_list"> <span>123-456-7890</span>
+      
+      <dl>
+        <dt>手机：</dt>
+        <dd>138-8888-8888
+      </dl>
+      </dd>
+      <dl>
+        <dt>电话：</dt>
+        <dd>400-0000-9988</dd>
+      </dl>
+      <dl>
+        <dt>邮箱：</dt>
+        <dd>support@baobeihuijia.com</dd>
+      </dl>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <!--联系我们结束--> 
+</div>
+ 
+  <!--文章内容开始-->
+  <div class="main_con">
+    <div class="mainConTitle"> <span class="title">案例展示</span> <span class="position">当前位置：<a href="javascript:if(confirm('http://127.0.0.32/  \n\n�ļ���δ�� Teleport Pro ȡ�أ���Ϊ �������·��������ʼ��ַ�����õķ�Χ��  \n\n��Ҫ�ӷ������ϴ�����'))window.location='http://127.0.0.32/'" >主页</a> > <a href="index-7.htm"  >新闻资讯</a> > </span></div>
+    <div class="mainContect">
+      <div class="title">一气离亲人 流落廿六秋<span>添加时间：2016-06-25</span></div>
+      <div class="con">
+        <div class="pb">
+          <div class="pagebox">
+            <p>&nbsp; &nbsp;<br>      10月2日，宝贝回家家寻组志愿者燕子接到寻亲任务。燕子电话联系登记人了解到，原来是江西省赣州市的李女士在寻找姐姐李华华。
+
+              <br>       李女士说姐姐李华华1993年9月12日出生，皮肤黑，除了说客家话、赣州于都方言外，还会说普通话。
+              
+              <br>       李华华一直跟着父母在东莞生活，但她知道父母从江西来东莞打工，帮别人做丝绵、分布碎。另外李女士说自己的相貌非常像姐姐。
+              
+              <br>       1998年6月19日下午3点左右，李华华穿一身短衣短裤，和表弟一起跟着舅舅去玩，在虎门陈村到东方村的路上，俩个孩子吵了架，李华华闹着回家找父母，舅舅觉得是条熟路，也没有多远，也就让李华华一个人回家了。
+              
+              <br>       下午六点左右，舅舅打电话问父母，李华华到家没有，这时父母才知道李华华没有跟舅舅去玩。家人们立刻在李华华回家的路上寻找，却没有李华华的消息。家人无可奈何，只得在东莞市公安局虎门分局龙眼派出所报警。
+              
+              <br>      10月8日，燕子整理资料在宝贝回家论坛发帖：
+              <br>      寻找1994出生1998失踪广东省东莞市虎门陈村至东方村路段 李华华  149403
+              <br>       https://bbs.baobeihuijia.com/thread-247200-1-1.html
+              
+              <br>       燕子在沟通中得知李华华的父母没有采血，嘱咐他们一定去采血。2017年家长回到江西老家，燕子得知还没有采血，就请李女士催促母亲，但李女士请燕子直接联系父母，因为父母不相信采血能找到女儿。他们认为，过去也曾在别的寻人途径留下联系方式，但都没有结果，所以父母一直认为采血更没有用。
+              
+              <br>       燕子没有放弃，多次联系李华华的父亲，说明采血的重要性。
+              
+              <br>       2019年4月12日，李华华的父母终于前往警方采血，然而后经查询不知何故却需要重采。2021年12月，燕子再次联系家人督促采血，这一次终于顺利入库。就在两次采血期间，燕子对比到几位信息相似的寻亲人，李华华的父母看到后一一否定。
+              
+              <br>      2024年8月27日，家人联系燕子，说明接到警方通知，有李华华的信息了。
+              
+              <br>      原来现生活在广西玉林的李华华在网上看到浙江商警官帮助寻找亲人，于是联系商警官采集了DNA血样。接下来的事顺理成章，李华华的血样比对上家人，割断二十六年的亲情终得再续。
+              
+              <br>      寻亲成功后，李女士通过电话感谢宝贝回家网站，感谢网站十年来不离不弃的陪伴和帮助。
+</p>
+            <div align="center"></div>
+          </div>
+        </div>
+      </div>
+      <div class="pgfy">
+        <div class="pgfyl">
+          <p class="last"><a href="2.html"  >上一篇：38年寻家，母子团圆</a> </p>
+          <p class="next"><a href="5.html"  >下一篇：深负重致远志不渝 赠人玫瑰留沁香</a> </p>
+        </div>
+        <div class="pgfyr"><a href="index-7.htm"   title="[返回列表]">[返回列表]</a> </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+  <!--文章内容结束-->
+  <div class="clear"></div>
+</div>
+<!--页尾开始--> 
+<div class="footer"> 
+  
+  
+  <div class="copyright">
+    <div class="copyrightnr"> 电话：400-0000-9988　　手机：138-8888-9988<br />
+    <div class="clear"></div>
+  </div>
+</div>
+ 
+<!--页尾结束-->
+</body>
+</html>

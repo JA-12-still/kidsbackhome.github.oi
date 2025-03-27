@@ -1,0 +1,185 @@
+<html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>宝贝回家</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link href="style.css"   rel="stylesheet">
+<script src="jquery.js"  ></script>
+<script src="pic.js"  ></script>
+<script src="inc.js"  ></script>
+<script src="newspic.js"   ></script>
+<script src="search.js"  ></script>
+<script src="doublescroll.js"   ></script>
+<script src="jquery.validator.js"  ></script>
+<script src="zh_cn.js"  ></script>
+<script src="mobile.js"  ></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+<!--页头开始--> 
+<div class="header"> 
+  <!--顶部开始-->
+  <div class="top">
+    <div class="topCon clear-fix">
+      <ul class="topConNav">
+        <li><a title="人才招聘" href="index-1.htm"   >人才招聘</a></li> 
+        <li><a title="联系我们" href="index-2.htm"   >联系我们</a></li>
+      </ul>
+      <div class="logo"><a href="index.htm"    title="宝贝回家"> <IMG src="logo.png"    width="210" height="195" alt="宝贝回家"></a></div>
+    </div>
+  </div>
+  <!--顶部结束--> 
+  
+  <!--导航开始-->
+  <div class="navgrp">
+    <ul class="nav">
+      <li><a href="index.htm"    title="网站首页"><span>home</span>网站首页</a></li>
+      <li><a href="index-3-1.htm"    title="关于我们"><span>ABOUT US</span>关于我们</a></li>
+      <li><a href="index-4.htm"    title="走失预防"><span>PRODUCTS</span>走失预防</a></li>
+      <li><a href="index-6.htm"    title="案例展示"><span>WORKSHOP</span>案例展示</a></li>
+      <li><a href="index-7.htm"    title="隐私政策"><span>NEWS</span>隐私政策</a></li>
+      <li><a href="index-8.htm"    title="在线留言"><span>Message</span>在线留言</a></li>
+    </ul>
+  </div>
+  <!--导航结束--> 
+  
+  <!--幻灯片图片开始-->
+  
+  <link href="lrtk.css"   rel="stylesheet">
+  <script src="index_solid.js"  ></script>
+  <DIV id=banner>
+    <DIV id=ifocus>
+      <DIV style="OVERFLOW: hidden" id=ifocus_pic>
+        <DIV style="OVERFLOW: hidden; TOP: 0px; LEFT: 0px" id=ifocus_piclist>
+          <UL>
+            <li><a href="javascript:;" target="_blank"><IMG src="04.png"  ></a></li>
+              <li><a href="javascript:;" target="_blank"><IMG src="03.jpg"  ></a></li>
+            </UL>
+          </DIV>
+          <DIV id=ifocus_opdiv></DIV>
+          <!--小图列表-->
+          <DIV id=ifocus_tx>
+            <UL>
+              <LI class=current>
+              <LI class=normal> </LI>
+            </UL>
+          </DIV>
+          <!--小图列表-->
+          <DIV id="ifocus_btn" >
+            <UL id="ifocus_btnUl">
+              <li class="current"><IMG src="04.png"  ></li>
+              <li ><IMG src="03.jpg"  ></li>
+          </UL>
+        </DIV>
+      </DIV>
+    </DIV>
+  </DIV>
+  <script type="text/javascript">
+	var width = (document.getElementById("ifocus_btn").offsetWidth-1000)/2;
+	var obj = document.getElementById('ifocus_btnUl');
+	obj.style.cssText = "width:800px;margin:0 auto";
+</script> 
+  <!--幻灯片图片结束--> 
+</div>
+ 
+<!--页头结束-->
+<div class="main"> <div class="left_main"> 
+  
+  <!--产品分类开始-->
+  <div class="procla">
+    <div class="procla_title">社会协助</div>
+    <div class="procla_list">
+      <ul>
+        
+        <li><a href="index-9.htm"   title="温暖志愿者">温暖志愿者</a></li>
+        
+        <li><a href="index-10.htm"   title="社会新闻">社会新闻</a></li>
+        
+        <li><a href="index-11.htm"   title="注爱捐款">注爱捐款</a></li>
+        
+        <li><a href="index-12.htm"   title="爱心法律援助">爱心法律援助</a></li>
+        
+      </ul>
+    </div>
+  </div>
+  <!--产品分类结束--> 
+  
+  <!--最新资讯开始-->
+  <div class="leftnews_title">最新资讯</div>
+  <div class="leftnews_list">
+    <ul>
+<li><a href="2.html"   title="38年寻家，母子团圆">38年寻家，母子团圆</a></li>
+<li><a href="4.html"   title="一气离亲人 流落廿六秋">一气离亲人 流落廿六秋</a></li>
+<li><a href="5.html"   title="深负重致远志不渝 赠人玫瑰留沁香">深负重致远志不渝 赠人玫瑰留沁香</a></li>
+<li><a href="55.html"   title="八年寻亲梦圆">八年寻亲梦圆</a></li>
+
+    </ul>
+  </div>
+  <!--最新资讯结束--> 
+  
+  <!--联系我们开始-->
+  <div class="leftnews_title">联系我们</div>
+  <div class="contactleft">
+    <div class="conleft_title">全国服务热线:</div>
+    <div class="conleft_list"> <span>123-456-7890</span>
+      
+      <dl>
+        <dt>手机：</dt>
+        <dd>138-8888-8888
+      </dl>
+      </dd>
+      <dl>
+        <dt>电话：</dt>
+        <dd>400-0000-9988</dd>
+      </dl>
+      <dl>
+        <dt>邮箱：</dt>
+        <dd>support@baobeihuijia.com</dd>
+      </dl>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <!--联系我们结束--> 
+</div>
+ 
+  <!--文章列表开始-->
+  <div class="main_con">
+    <div class="mainConTitle"> <span class="title">隐私政策</span> <span class="position">当前位置：<a href="javascript:if(confirm('http://127.0.0.32/  \n\n�ļ���δ�� Teleport Pro ȡ�أ���Ϊ �������·��������ʼ��ַ�����õķ�Χ��  \n\n��Ҫ�ӷ������ϴ�����'))window.location='http://127.0.0.32/'" >主页</a> > <a href="index-7.htm"  >隐私政策</a> > </span></div>
+    <div class="mainConList">
+      
+  <p>
+    
+    <br />欢迎使用“宝贝回家”网页。我们非常重视您的隐私，并致力于保护您的个人信息。本隐私政策解释了我们会收集哪些信息、如何使用这些信息，以及我们如何保护您的隐私。
+    <br />1. 信息的收集与使用
+    <br />我们可能会收集以下信息：
+    <br />注册信息：当您注册账户时，我们会收集您的姓名、电子邮件地址、电话号码等基本信息。
+    <br />搜索信息：当您使用搜索功能时，我们会收集您输入的关键词、筛选条件等信息，以便为您提供匹配结果。
+    <br />上传信息：当您上传寻找人的信息时，我们会收集您提供的照片、姓名、年龄、失踪地点等详细信息。
+    <br />技术信息：我们可能会自动收集您的IP地址、浏览器类型、操作系统等信息，以优化网页性能。
+
+    <br />2. 信息的使用目的
+    <br />我们收集的信息将用于以下目的：
+提供和优化我们的服务；
+帮助您寻找失踪人员或匹配相关信息；
+与您联系，提供更新或通知；
+改进网页功能和用户体验。
+
+<br />3. 信息的共享与披露
+<br />我们承诺不会将您的个人信息出售给第三方。但在以下情况下，我们可能会共享您的信息：
+<br />法律要求：如果我们被要求遵守法律程序或政府要求，我们可能会披露您的信息。
+<br />服务提供商：我们可能会与第三方服务提供商合作，以帮助我们运营网页，但这些提供商必须遵守严格的保密协议。
+<br />用户同意：在获得您的明确同意后，我们可能会与特定第三方共享信息。
+
+  </p>
+</div>
+  <!--文章列表结束-->
+  <div class="clear"></div>
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,213 @@
+<html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>宝贝回家</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link href="style.css"   rel="stylesheet">
+<script src="jquery.js"  ></script>
+<script src="pic.js"  ></script>
+<script src="inc.js"  ></script>
+<script src="newspic.js"   ></script>
+<script src="search.js"  ></script>
+<script src="doublescroll.js"   ></script>
+<script src="jquery.validator.js"  ></script>
+<script src="zh_cn.js"  ></script>
+<script src="mobile.js"  ></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+<!--页头开始--> 
+<div class="header"> 
+  <!--顶部开始-->
+  <div class="top">
+    <div class="topCon clear-fix">
+      <ul class="topConNav">
+        <li><a title="人才招聘" href="index-1.htm"   >人才招聘</a></li> 
+        <li><a title="联系我们" href="index-2.htm"   >联系我们</a></li>
+      </ul>
+      <div class="logo"><a href="index.htm"    title="宝贝回家"> <IMG src="logo.png"    width="210" height="195" alt="宝贝回家"></a></div>
+    </div>
+  </div>
+  <!--顶部结束--> 
+  
+  <!--导航开始-->
+  <div class="navgrp">
+    <ul class="nav">
+      <li><a href="index.htm"    title="网站首页"><span>home</span>网站首页</a></li>
+      <li><a href="index-3-1.htm"    title="关于我们"><span>ABOUT US</span>关于我们</a></li>
+      <li><a href="index-4.htm"    title="走失预防"><span>PRODUCTS</span>走失预防</a></li>
+      <li><a href="index-6.htm"    title="案例展示"><span>WORKSHOP</span>案例展示</a></li>
+      <li><a href="index-7.htm"    title="隐私政策"><span>NEWS</span>隐私政策</a></li>
+      <li><a href="index-8.htm"    title="在线留言"><span>Message</span>在线留言</a></li>
+    </ul>
+  </div>
+  <!--导航结束--> 
+  
+  <!--幻灯片图片开始-->
+  
+  <link href="lrtk.css"   rel="stylesheet">
+  <script src="index_solid.js"  ></script>
+  <DIV id=banner>
+    <DIV id=ifocus>
+      <DIV style="OVERFLOW: hidden" id=ifocus_pic>
+        <DIV style="OVERFLOW: hidden; TOP: 0px; LEFT: 0px" id=ifocus_piclist>
+          <UL>
+            <li><a href="javascript:;" target="_blank"><IMG src="04.png"  ></a></li>
+              <li><a href="javascript:;" target="_blank"><IMG src="03.jpg"  ></a></li>
+            </UL>
+          </DIV>
+          <DIV id=ifocus_opdiv></DIV>
+          <!--小图列表-->
+          <DIV id=ifocus_tx>
+            <UL>
+              <LI class=current>
+              <LI class=normal> </LI>
+            </UL>
+          </DIV>
+          <!--小图列表-->
+          <DIV id="ifocus_btn" >
+            <UL id="ifocus_btnUl">
+              <li class="current"><IMG src="04.png"  ></li>
+              <li ><IMG src="03.jpg"  ></li>
+          </UL>
+        </DIV>
+      </DIV>
+    </DIV>
+  </DIV>
+  <script type="text/javascript">
+	var width = (document.getElementById("ifocus_btn").offsetWidth-1000)/2;
+	var obj = document.getElementById('ifocus_btnUl');
+	obj.style.cssText = "width:800px;margin:0 auto";
+</script> 
+  <!--幻灯片图片结束--> 
+</div>
+
+ 
+<!--页头结束-->
+<div class="main"> <div class="left_main"> 
+  
+  <!--产品分类开始-->
+  <div class="procla">
+    <div class="procla_title">社会协助</div>
+    <div class="procla_list">
+      <ul>
+        
+        <li><a href="index-9.htm"   title="温暖志愿者">温暖志愿者</a></li>
+        
+        <li><a href="index-10.htm"   title="社会新闻">社会新闻</a></li>
+        
+        <li><a href="index-11.htm"   title="注爱捐款">注爱捐款</a></li>
+        
+        <li><a href="index-12.htm"   title="爱心法律援助">爱心法律援助</a></li>
+        
+      </ul>
+    </div>
+  </div>
+  <!--产品分类结束--> 
+  
+  <!--最新资讯开始-->
+  <div class="leftnews_title">最新资讯</div>
+  <div class="leftnews_list">
+    <ul>
+<li><a href="2.html"   title="38年寻家，母子团圆">38年寻家，母子团圆</a></li>
+<li><a href="4.html"   title="一气离亲人 流落廿六秋">一气离亲人 流落廿六秋</a></li>
+<li><a href="5.html"   title="深负重致远志不渝 赠人玫瑰留沁香">深负重致远志不渝 赠人玫瑰留沁香</a></li>
+<li><a href="55.html"   title="八年寻亲梦圆">八年寻亲梦圆</a></li>
+
+    </ul>
+  </div>
+  <!--最新资讯结束--> 
+  
+  <!--联系我们开始-->
+  <div class="leftnews_title">联系我们</div>
+  <div class="contactleft">
+    <div class="conleft_title">全国服务热线:</div>
+    <div class="conleft_list"> <span>123-456-7890</span>
+      
+      <dl>
+        <dt>手机：</dt>
+        <dd>138-8888-8888
+      </dl>
+      </dd>
+      <dl>
+        <dt>电话：</dt>
+        <dd>400-0000-9988</dd>
+      </dl>
+      <dl>
+        <dt>邮箱：</dt>
+        <dd>support@baobeihuijia.com</dd>
+      </dl>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <!--联系我们结束--> 
+</div>
+ 
+  <!--产品列表开始-->
+  <div class="main_con">
+    <div class="mainConTitle"> <span class="title">走失预防</span> <span class="position">当前位置：<a href="javascript:if(confirm('http://127.0.0.32/  \n\n�ļ���δ�� Teleport Pro ȡ�أ���Ϊ �������·��������ʼ��ַ�����õķ�Χ��  \n\n��Ҫ�ӷ������ϴ�����'))window.location='http://127.0.0.32/'" >主页</a> > <a href="index-4.htm"  >产品展示</a> > </span></div>
+    <div class="mainConList"> 
+      <p>
+        <br />走失经典案例分析：
+        <br />2025年3月8日阳新县景区走失女童案
+ 
+        <br />- 事件经过：3月8日下午4时许，罗女士一家在阳新县王英仙岛湖游玩，12岁的外甥女小琪不慎与家人走散。罗女士向民警求助，民警联合景区工作人员，一组沿道路徒步寻找，一组查看周边监控视频，并通过景区广播播报寻人启事。
+        <br />- 结果：十余分钟后，在天空之城景区玻璃观光平台附近找到小琪。
+ 
+        <br />2025年3月8日会昌县姐弟走失案
+ 
+        <br />- 事件经过：3月8日21时许，会昌县西江镇肖先生的8岁女儿带着4岁弟弟离家后去向不明，家属报警求助。警方集结多部门力量，调用“治安三张图”平台和无人机进行搜索。
+        <br />- 结果：3月9日4时许，在一处山坡后找到冻得瑟瑟发抖的姐弟俩，原来姐弟俩是因思念在外务工的妈妈而外出寻找，夜幕降临后迷路。
+ 
+        <br />2025年3月11日洪雅县2岁走失男童案
+ 
+        <br />- 事件经过：3月11日傍晚，洪雅县新广场，2岁男童因妈妈黄女士在人流量大的广场稍不留神，与妈妈走散。随后孩子被一位市民带到特巡警岗亭，民警一边安抚孩子，一边调取广场周边17个监控探头回溯孩子活动轨迹。
+        <br />- 结果：孩子母亲黄女士通过联合指挥中心得知孩子找到的消息，母子在岗亭中相拥。
+ 
+        <br />2024年11月16日柳州3岁男童走失案
+ 
+        <br />- 事件经过：2024年11月16日上午11时许，广西柳州市里高镇保仁村一名3岁男童在家附近走失，柳江警方联合特警支队出动警力100多人，在无人机、警犬协助下，与当地救援搜寻队100多人开展联合行动。警方兵分三路，一组询问家属及走访村民，一组查看公共视频，一组开展地毯式搜寻。
+        <br />- 结果：17日中午12时许，在里高镇莲花山一树林深处找到男童，其身体无大碍、精神状态较好。
+        <br />这些是比较幸运的案例，孩子们最后都被找回来了，如果真的发现孩子丢失了最先做的应该是冷静
+        <br />数据分析：时间分布 地理特征 人群画像 失踪诱因
+        <br />时间分布：
+        <br />节假日期间，儿童失踪报案量比平日增长35%-50% 。像春节、寒暑假、国庆这些时段，家庭出行频繁，家长在复杂环境里容易分散注意力，火车站、景区、庙会等地的走失占比达62%。比如在景区，孩子可能被新奇事物吸引，一不留神就脱离了家长视线。从昼夜来看，17:00-20:00是全天失踪高峰，和孩子放学、家长下班的时间空档重合，此时家长忙碌一天比较疲惫，对孩子的监管容易放松。而22:00后，夜间失踪儿童中离家出走比例达78% ，多是因为家庭矛盾、学业压力等。
+        <br />地理特征：在区域上，珠三角、长三角及流动人口密集的省会城市报案量占到全国总量的41%，这些地区人口流动大、环境复杂，增加了孩子走失风险。从场所类型来说，城市里商场、游乐场、地铁站人流量大，孩子容易瞬间走失，分别占比34%、28%、19% ；农村地区乡镇集市占比52%，人多嘈杂，孩子易被诱拐，田间道路占23%，留守儿童独自活动时容易遭遇危险。
+ 
+        <br />人群画像：3-6岁幼儿占失踪儿童的48% ，多因监护人疏忽瞬间走失，但好在黄金3小时找回率高达92%，家长如果能及时发现并快速行动，找回孩子的可能性很大。12-15岁青少年占比37%，八成以上是离家出走，主要是逃避家庭暴力或学业压力，这个年龄段孩子心理变化大，需要家长更多关注和沟通。0-3岁婴幼儿是拐卖案件的主要目标，他们难以表达和反抗，且被拐卖后会被跨省快速转移，案件隐蔽度高。性别上，男孩失踪占比63%，但恶性失踪案件中女童受害占比达71%，女孩更容易受到伤害。
+ 
+        <br />失踪诱因：家庭监护缺失是主因，占比54% ，家长玩手机、临时托付陌生人照看等行为，都容易导致孩子走失，不过这类情况找回周期通常小于24小时 。青春期儿童主动离家出走占32%，除了家庭、学业问题，还可能受到网络交友诱导。其他涉嫌犯罪型占14% ，如人贩子拐骗等，这类案件性质恶劣，给家庭带来极大痛苦。
+
+      </p>
+      <div class="clear"></div>
+    </div>
+    <!--分页样式-->
+    
+    <div class="pagination-wrapper">
+      <div class="pagination"> <li><a>首页</a></li>
+<li class="thisclass"><a>1</a></li>
+<li><a>下一页</a></li>
+<li><a>末页</a></li>
+ </div>
+    </div>
+  </div>
+  <!--产品列表结束-->
+  <div class="clear"></div>
+</div>
+<!--页尾开始--> 
+<div class="footer"> 
+
+  
+  <div class="copyright">
+    <div class="copyrightnr"> 电话：400-0000-9988　　手机：138-8888-9988<br />
+
+    <div class="clear"></div>
+  </div>
+</div>
+ 
+<!--页尾结束-->
+</body>
+</html>

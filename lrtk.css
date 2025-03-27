@@ -1,0 +1,118 @@
+/* 我的网站（Baidu.com）做最好的织梦整站模板下载网站 */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+ul {
+	list-style: none;
+}
+#banner {
+	WIDTH: 100%;
+}
+#banner #ifocus {
+	WIDTH: 100%;
+	HEIGHT: 445px
+}
+#banner #ifocus_pic {
+	POSITION: relative;
+	WIDTH: 100%;
+	DISPLAY: inline;
+	FLOAT: left;
+	HEIGHT: 445px;
+	OVERFLOW: hidden;
+}
+#banner #ifocus_piclist {
+	Z-INDEX: 1;
+	POSITION: absolute;
+	WIDTH: 100%;
+}
+#banner #ifocus_piclist LI {
+	WIDTH: 100%;
+	HEIGHT: 445px;
+	OVERFLOW: hidden;
+	text-align: -webkit-center;
+}
+#banner #ifocus_piclist IMG {
+	HEIGHT: 445px;
+}
+#banner #ifocus_btn {
+	Z-INDEX: 3;
+	POSITION: absolute;
+	WIDTH: 100%;
+	top: 368px;
+	LEFT: 0px;
+}
+UNKNOWN {
+	BOTTOM: 5px
+}
+#banner #ifocus_btn UL {
+	width: 1000px;
+	text-align: center;
+}
+#banner #ifocus_btn LI {
+	FILTER: alpha(opacity=50);
+	PADDING-BOTTOM: 0px;
+	MARGIN-TOP: 10px;
+	PADDING-LEFT: 7px;
+	WIDTH: 234px;
+	PADDING-RIGHT: 7px;
+	/*DISPLAY: block; 
+	 FLOAT: left; */
+	display: inline-block;
+ *display:inline;
+*zoom:1;
+	HEIGHT: auto;
+	CURSOR: pointer;
+	PADDING-TOP: 0px;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+}
+#banner #ifocus_btn IMG {
+	BORDER: #ffffff 1px solid;
+	WIDTH: 234px;
+	HEIGHT: 60px;
+}
+#banner #ifocus_btn .current {
+	TEXT-ALIGN: left;
+	FILTER: alpha(opacity=100);
+	MARGIN-TOP: 0px;
+	/*DISPLAY: block; 
+	FLOAT: left; */
+	display: inline-block;
+ *display:inline;
+*zoom:1;
+	opacity: 1;
+	-moz-opacity: 1
+}
+#banner #ifocus_btn .current IMG {
+	BORDER-BOTTOM: #fff 2px solid;
+	BORDER-LEFT: #fff 2px solid;
+	WIDTH: 232px;
+	HEIGHT: 64px;
+	BORDER-TOP: #fff 2px solid;
+	BORDER-RIGHT: #fff 2px solid
+}
+#banner #ifocus_opdiv {
+	Z-INDEX: 2;
+	POSITION: absolute;
+	FILTER: alpha(opacity=50);
+	WIDTH: 100%;
+	BOTTOM: 0px;
+	BACKGROUND: #000;
+	HEIGHT: 72px;
+	LEFT: 0px;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	_height: 72px;
+*height: 72px
+}
+#banner #ifocus_tx {
+	Z-INDEX: 3;
+	POSITION: absolute;
+	BOTTOM: 8px;
+	COLOR: #fff;
+	LEFT: 8px
+}
+#banner #ifocus_tx .normal {
+	DISPLAY: none
+}

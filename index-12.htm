@@ -1,0 +1,218 @@
+<html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>宝贝回家</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link href="style.css"   rel="stylesheet">
+<script src="jquery.js"  ></script>
+<script src="pic.js"  ></script>
+<script src="inc.js"  ></script>
+<script src="newspic.js"   ></script>
+<script src="search.js"  ></script>
+<script src="doublescroll.js"   ></script>
+<script src="jquery.validator.js"  ></script>
+<script src="zh_cn.js"  ></script>
+<script src="mobile.js"  ></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+<!--页头开始--> 
+<div class="header"> 
+  <!--顶部开始-->
+  <div class="top">
+    <div class="topCon clear-fix">
+      <ul class="topConNav">
+        <li><a title="人才招聘" href="index-1.htm"   >人才招聘</a></li> 
+        <li><a title="联系我们" href="index-2.htm"   >联系我们</a></li>
+      </ul>
+      <div class="logo"><a href="index.htm"    title="宝贝回家"> <IMG src="logo.png"    width="210" height="195" alt="宝贝回家"></a></div>
+    </div>
+  </div>
+  <!--顶部结束--> 
+  
+  <!--导航开始-->
+  <div class="navgrp">
+    <ul class="nav">
+      <li><a href="index.htm"    title="网站首页"><span>home</span>网站首页</a></li>
+      <li><a href="index-3-1.htm"    title="关于我们"><span>ABOUT US</span>关于我们</a></li>
+      <li><a href="index-4.htm"    title="走失预防"><span>PRODUCTS</span>走失预防</a></li>
+      <li><a href="index-6.htm"    title="案例展示"><span>WORKSHOP</span>案例展示</a></li>
+      <li><a href="index-7.htm"    title="隐私政策"><span>NEWS</span>隐私政策</a></li>
+      <li><a href="index-8.htm"    title="在线留言"><span>Message</span>在线留言</a></li>
+    </ul>
+  </div>
+  <!--导航结束--> 
+  
+  <!--幻灯片图片开始-->
+  
+  <link href="lrtk.css"   rel="stylesheet">
+  <script src="index_solid.js"  ></script>
+  <DIV id=banner>
+    <DIV id=ifocus>
+      <DIV style="OVERFLOW: hidden" id=ifocus_pic>
+        <DIV style="OVERFLOW: hidden; TOP: 0px; LEFT: 0px" id=ifocus_piclist>
+          <UL>
+            <li><a href="javascript:;" target="_blank"><IMG src="04.png"  ></a></li>
+              <li><a href="javascript:;" target="_blank"><IMG src="03.jpg"  ></a></li>
+            </UL>
+          </DIV>
+          <DIV id=ifocus_opdiv></DIV>
+          <!--小图列表-->
+          <DIV id=ifocus_tx>
+            <UL>
+              <LI class=current>
+              <LI class=normal> </LI>
+            </UL>
+          </DIV>
+          <!--小图列表-->
+          <DIV id="ifocus_btn" >
+            <UL id="ifocus_btnUl">
+              <li class="current"><IMG src="04.png"  ></li>
+              <li ><IMG src="03.jpg"  ></li>
+          </UL>
+        </DIV>
+      </DIV>
+    </DIV>
+  </DIV>
+  <script type="text/javascript">
+	var width = (document.getElementById("ifocus_btn").offsetWidth-1000)/2;
+	var obj = document.getElementById('ifocus_btnUl');
+	obj.style.cssText = "width:800px;margin:0 auto";
+</script> 
+  <!--幻灯片图片结束--> 
+
+</div>
+ 
+<!--页头结束-->
+<div class="main"> <div class="left_main"> 
+  
+  <!--产品分类开始-->
+  <div class="procla">
+    <div class="procla_title">社会协助</div>
+    <div class="procla_list">
+      <ul>
+        
+        <li><a href="index-9.htm"   title="温暖志愿者">温暖志愿者</a></li>
+        
+        <li><a href="index-10.htm"   title="社会新闻">社会新闻</a></li>
+        
+        <li><a href="index-11.htm"   title="注爱捐款">注爱捐款</a></li>
+        
+        <li><a href="index-12.htm"   title="爱心法律援助">爱心法律援助</a></li>
+        
+      </ul>
+    </div>
+  </div>
+  <!--产品分类结束--> 
+  
+  <!--最新资讯开始-->
+  <div class="leftnews_title">最新资讯</div>
+  <div class="leftnews_list">
+    <ul>
+<li><a href="2.html"   title="38年寻家，母子团圆">38年寻家，母子团圆</a></li>
+<li><a href="4.html"   title="一气离亲人 流落廿六秋">一气离亲人 流落廿六秋</a></li>
+<li><a href="5.html"   title="深负重致远志不渝 赠人玫瑰留沁香">深负重致远志不渝 赠人玫瑰留沁香</a></li>
+<li><a href="55.html"   title="八年寻亲梦圆">八年寻亲梦圆</a></li>
+
+    </ul>
+  </div>
+  <!--最新资讯结束--> 
+  
+  <!--联系我们开始-->
+  <div class="leftnews_title">联系我们</div>
+  <div class="contactleft">
+    <div class="conleft_title">全国服务热线:</div>
+    <div class="conleft_list"> <span>123-456-7890</span>
+      
+      <dl>
+        <dt>手机：</dt>
+        <dd>138-8888-8888
+      </dl>
+      </dd>
+      <dl>
+        <dt>电话：</dt>
+        <dd>400-0000-9988</dd>
+      </dl>
+      <dl>
+        <dt>邮箱：</dt>
+        <dd>support@baobeihuijia.com</dd>
+      </dl>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <!--联系我们结束-->  
+</div>
+ 
+  <!--产品列表开始-->
+  <div class="main_con">
+    <div class="mainConTitle"> <span class="title">爱心法律援助</span> <span class="position">当前位置：<a href="javascript:if(confirm('http://127.0.0.32/  \n\n�ļ���δ�� Teleport Pro ȡ�أ���Ϊ �������·��������ʼ��ַ�����õķ�Χ��  \n\n��Ҫ�ӷ������ϴ�����'))window.location='http://127.0.0.32/'" >主页</a> > <a href="index-4.htm"  >社会协作与保障方面</a> > <a href="index-12.htm"  >爱心法律援助</a> > </span></div>
+    <div class="mainConList"> 
+      <div class="clear"></div>
+      <p>
+        <br />热门提问：
+        <br />问题：小孩子丢失后法律通过什么政策来加大找回来的几率？
+        <br />答案：快速响应与侦查方面
+        <br />及时立案侦查：监护人发现儿童失踪应及时向公安机关报案，警方接到报告后需立即出警并立案侦查，启动儿童失踪快速查找机制，第一时间组织搜寻。
+        <br />采集DNA信息：公安机关免费采集失踪儿童父母的血液样本，录入全国打拐DNA信息库，若成功解救被拐卖儿童，也会对其采集血样进行DNA检测并录入数据库，以便寻找生父母。
+        <br />安置与寻亲方面
+        <br />临时照料与公告：若暂时无法找到生父母或其他监护人，儿童会被送往社会福利机构或救助保护机构，公安机关签发打拐解救儿童临时照料通知书。社会福利机构或救助保护机构需在报纸和全国打拐解救儿童寻亲公告平台发布寻亲公告。
+        <br />办理收养登记：经过一定期限仍未找到生父母或其他监护人，社会福利机构对符合收养条件的儿童尽快安排国内送养，在办理收养登记前，社会福利机构应与收养家庭签署收养协议。收养登记机关收到收养登记申请书及相关材料后，按规定发布公告，公告期满六十日后，若打拐解救儿童的生父母或其他监护人未认领，为符合条件的当事人办理收养登记。
+              打击拐卖犯罪与民事赔偿方面
+        <br />严惩拐卖犯罪：刑法对拐卖儿童犯罪作出了明确规定，拐卖妇女、儿童的，处五年以上十年以下有期徒刑，并处罚金等，通过严厉的刑罚来打击拐卖儿童的违法犯罪行为，减少此类案件的发生，为找回孩子创造有利条件。
+        <br />支持民事赔偿：被拐卖儿童的家庭可通过刑事附带民事诉讼或另行提起民事诉讼等方式，要求拐卖犯罪分子赔偿寻找孩子产生的费用等实际损失，以此在一定程度上弥补家庭损失，也对拐卖行为起到震慑作用。
+        <br />社会协作与保障方面
+        <br />部门协作：公检法及民政等部门之间建立信息共享和协调机制，确保涉及失踪儿童案件的相关工作顺利进行，司法行政部门为受害者及其近亲属提供法律援助服务。
+        <br />公众参与：鼓励公众积极举报拐卖儿童犯罪行为，建立举报奖励机制，对提供有效线索的举报人给予一定的奖励，以充分调动社会力量，为找回孩子提供更多线索和支持。
+
+
+        <br />问题：孩子丢失多久可以报案？
+        <br />答案：孩子失踪后应立即报案，公安机关会及时受理并开展工作，无需等待特定时间。
+
+
+        <br />问题：报案需要准备哪些材料？
+        <br />答案：一般需提供孩子及监护人的身份证明，如身份证、户口本等，能反映孩子特征的照片、视频等资料，以及孩子失踪的相关情况说明，如失踪时间、地点、当时的具体情形等。
+
+
+        <br />问题：孩子丢失后，发布寻人启事要注意什么？
+        <br />答案：发布寻人启事，首先在内容上，务必保证信息准确详实。需清晰写明孩子的姓名、性别、年龄、外貌特征，比如面部有无胎记、痣，发型、身高等，还有失踪时的穿着，包括衣服颜色、款式、鞋子品牌等细节，方便他人辨认 。同时，留下有效的联系方式，如监护人的手机号码、家庭固定电话，若有电子邮箱也可附上，确保知情者能迅速联系。
+在发布途径选择上，要合法合规。线上可利用微博、微信公众号、抖音等社交媒体平台，它们传播速度快、覆盖面广。发布时可带上热门话题标签，如#寻人启事#孩子失踪，提高曝光度。线下可在孩子失踪地点周边、社区公告栏、学校、商场等人流量大的地方张贴，但需注意，张贴不能违反城市管理规定，不能随意在公共设施、他人私有财产上张贴，有些区域张贴广告需提前申请许可，避免因违规张贴面临罚款等处罚。
+另外，为防止不法分子利用寻人启事行骗，不要在启事中透露过多家庭财产、银行卡等敏感信息。若有人提供线索，务必先与警方沟通，谨慎核实，避免上当受骗。
+
+
+<br />问题：孩子找到后发现被非法收养，怎么要回抚养权？
+<br />答案：首先，要及时联系警方，警方会对非法收养情况展开调查，固定相关证据。同时，向法院提起诉讼，请求确认收养关系无效。在诉讼过程中，需提供能证明亲子关系的材料，如孩子的出生证明、DNA鉴定报告等 。法律明确规定，非法收养不受法律保护，亲生父母的抚养权受法律优先保障，一般情况下，法院会判决孩子抚养权归亲生父母，让孩子回到原生家庭。             
+
+<br />问题：孩子丢失后，在网络上发布寻人启事，可能会面临哪些法律风险，又该如何规避？ 
+<br />答案：在网络上发布寻人启事，虽能借助网络传播优势扩大寻亲信息覆盖面，但也伴随着一些法律风险。
+从隐私侵权角度看，一方面，若在寻人启事中无意披露了孩子过多敏感隐私信息，如身份证号码、家庭详细住址、父母工作单位等，可能导致孩子及家庭面临隐私泄露风险，被不法分子利用实施诈骗、骚扰等行为。另一方面，若将孩子一些可能涉及个人尊严的特殊生理特征、过往病史等信息过度公开，可能侵犯孩子的隐私权和人格尊严。比如曾有家长为尽快寻回孩子，在启事里详细描述孩子的精神病史，虽初衷是便于他人辨认，却在孩子找回后，因信息过度公开给孩子带来心理压力。
+从肖像权方面讲，若寻人启事被别有用心之人盗用，将孩子肖像用于商业广告、营销活动等，以谋取私利，就侵犯了孩子的肖像权。即使是出于寻人的善意目的，若在网络传播过程中，对孩子肖像进行恶意篡改、丑化，同样会侵害孩子的肖像利益和人格尊严。 
+在言论真实性与侵权方面，部分家长在焦急寻找孩子过程中，可能会在寻人启事中对某些怀疑对象进行指责、谩骂，或未经证实就传播一些猜测性信息。若这些言论不实，可能构成对他人名誉权的侵犯。比如，家长因怀疑邻居与孩子失踪有关，在网络启事中点名道姓指责邻居，后证实邻居与孩子失踪无关，这种行为就损害了邻居的名誉，需承担法律责任。 
+为规避这些风险，在发布寻人启事时，应仔细筛选信息。对于孩子隐私信息，像身份证号、家庭住址等非必要信息坚决不公布；对于特殊生理特征等信息，要谨慎权衡是否必须公开，尽量以不影响辨认又保护隐私的方式描述。关于肖像使用，可在启事中声明肖像仅用于寻人目的，禁止他人擅自使用。若发现肖像被侵权，应及时保存证据，要求侵权方停止侵害、消除影响、赔礼道歉，必要时通过法律途径索赔。在言论方面，务必保证内容真实客观，切勿随意指责、猜测。若对某些人有怀疑，应将线索提供给警方，由警方调查处理，切不可自行在网络上发布未经证实的言论。同时，密切关注寻人启事在网络上的传播情况，发现问题及时采取措施，如联系平台管理方删除不当内容等，以最大程度保护孩子及家人的合法权益。
+
+      </p>
+    </div>
+    <!--分页样式-->
+    
+    <div class="pagination-wrapper">
+      <div class="pagination"> <li><span class="pageinfo">共 <strong>1</strong>页<strong>1</strong>条记录</span></li>
+ </div>
+    </div>
+  </div>
+  <!--产品列表结束-->
+  <div class="clear"></div>
+</div>
+<!--页尾开始--> 
+<div class="footer"> 
+  
+  <div class="copyright">
+    <div class="copyrightnr"> 电话：400-0000-9988　　手机：138-8888-9988<br />
+    <div class="clear"></div>
+  </div>
+</div>
+ 
+<!--页尾结束-->
+</body>
+</html>

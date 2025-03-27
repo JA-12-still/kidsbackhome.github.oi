@@ -1,0 +1,198 @@
+<html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>宝贝回家</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link href="style.css"   rel="stylesheet">
+<script src="jquery.js"  ></script>
+<script src="pic.js"  ></script>
+<script src="inc.js"  ></script>
+<script src="newspic.js"   ></script>
+<script src="search.js"  ></script>
+<script src="doublescroll.js"   ></script>
+<script src="jquery.validator.js"  ></script>
+<script src="zh_cn.js"  ></script>
+<script src="mobile.js"  ></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+<!--页头开始--> 
+<div class="header"> 
+  <!--顶部开始-->
+  <div class="top">
+    <div class="topCon clear-fix">
+      <ul class="topConNav">
+        <li><a title="人才招聘" href="index-1.htm"   >人才招聘</a></li> 
+        <li><a title="联系我们" href="index-2.htm"   >联系我们</a></li>
+      </ul>
+      <div class="logo"><a href="index.htm"    title="宝贝回家"> <IMG src="logo.png"    width="210" height="195" alt="宝贝回家"></a></div>
+    </div>
+  </div>
+  <!--顶部结束--> 
+  
+  <!--导航开始-->
+  <div class="navgrp">
+    <ul class="nav">
+      <li><a href="index.htm"    title="网站首页"><span>home</span>网站首页</a></li>
+      <li><a href="index-3-1.htm"    title="关于我们"><span>ABOUT US</span>关于我们</a></li>
+      <li><a href="index-4.htm"    title="走失预防"><span>PRODUCTS</span>走失预防</a></li>
+      <li><a href="index-6.htm"    title="案例展示"><span>WORKSHOP</span>案例展示</a></li>
+      <li><a href="index-7.htm"    title="隐私政策"><span>NEWS</span>隐私政策</a></li>
+      <li><a href="index-8.htm"    title="在线留言"><span>Message</span>在线留言</a></li>
+    </ul>
+  </div>
+  <!--导航结束--> 
+  
+  <!--幻灯片图片开始-->
+  
+  <link href="lrtk.css"   rel="stylesheet">
+  <script src="index_solid.js"  ></script>
+  <DIV id=banner>
+    <DIV id=ifocus>
+      <DIV style="OVERFLOW: hidden" id=ifocus_pic>
+        <DIV style="OVERFLOW: hidden; TOP: 0px; LEFT: 0px" id=ifocus_piclist>
+          <UL>
+            <li><a href="javascript:;" target="_blank"><IMG src="04.png"  ></a></li>
+              <li><a href="javascript:;" target="_blank"><IMG src="03.jpg"  ></a></li>
+            </UL>
+          </DIV>
+          <DIV id=ifocus_opdiv></DIV>
+          <!--小图列表-->
+          <DIV id=ifocus_tx>
+            <UL>
+              <LI class=current>
+              <LI class=normal> </LI>
+            </UL>
+          </DIV>
+          <!--小图列表-->
+          <DIV id="ifocus_btn" >
+            <UL id="ifocus_btnUl">
+              <li class="current"><IMG src="04.png"  ></li>
+              <li ><IMG src="03.jpg"  ></li>
+          </UL>
+        </DIV>
+      </DIV>
+    </DIV>
+  </DIV>
+  <script type="text/javascript">
+	var width = (document.getElementById("ifocus_btn").offsetWidth-1000)/2;
+	var obj = document.getElementById('ifocus_btnUl');
+	obj.style.cssText = "width:800px;margin:0 auto";
+</script> 
+  <!--幻灯片图片结束--> 
+</div>
+ 
+<!--页头结束-->
+<div class="main"> <div class="left_main"> 
+  
+  <!--产品分类开始-->
+  <div class="procla">
+    <div class="procla_title">社会协助</div>
+    <div class="procla_list">
+      <ul>
+        
+        <li><a href="index-9.htm"   title="温暖志愿者">温暖志愿者</a></li>
+        
+        <li><a href="index-10.htm"   title="社会新闻">社会新闻</a></li>
+        
+        <li><a href="index-11.htm"   title="注爱捐款">注爱捐款</a></li>
+        
+        <li><a href="index-12.htm"   title="爱心法律援助">爱心法律援助</a></li>
+        
+      </ul>
+    </div>
+  </div>
+  <!--产品分类结束--> 
+  
+  <!--最新资讯开始-->
+  <div class="leftnews_title">最新资讯</div>
+  <div class="leftnews_list">
+    <ul>
+<li><a href="2.html"   title="38年寻家，母子团圆">38年寻家，母子团圆</a></li>
+<li><a href="4.html"   title="一气离亲人 流落廿六秋">一气离亲人 流落廿六秋</a></li>
+<li><a href="5.html"   title="深负重致远志不渝 赠人玫瑰留沁香">深负重致远志不渝 赠人玫瑰留沁香</a></li>
+<li><a href="55.html"   title="八年寻亲梦圆">八年寻亲梦圆</a></li>
+    </ul>
+  </div>
+  <!--最新资讯结束--> 
+  
+  <!--联系我们开始-->
+  <div class="leftnews_title">联系我们</div>
+  <div class="contactleft">
+    <div class="conleft_title">全国服务热线:</div>
+    <div class="conleft_list"> <span>123-456-7890</span>
+      
+      <dl>
+        <dt>手机：</dt>
+        <dd>138-8888-8888
+      </dl>
+      </dd>
+      <dl>
+        <dt>电话：</dt>
+        <dd>400-0000-9988</dd>
+      </dl>
+      <dl>
+        <dt>邮箱：</dt>
+        <dd>support@baobeihuijia.com</dd>
+      </dl>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <!--联系我们结束--> 
+</div>
+ 
+  <!--文章内容开始-->
+  <div class="main_con">
+    <div class="mainConTitle"> <span class="title">案例展示</span> <span class="position">当前位置：<a href="javascript:if(confirm('http://127.0.0.32/  \n\n�ļ���δ�� Teleport Pro ȡ�أ���Ϊ �������·��������ʼ��ַ�����õķ�Χ��  \n\n��Ҫ�ӷ������ϴ�����'))window.location='http://127.0.0.32/'" >主页</a> > <a href="index-6.htm"  >案例展示</a> > </span></div>
+    <div class="mainContect">
+      <div class="title">大爱寻亲，温暖团圆<span>添加时间：2024-01-29</span></div>
+      <div class="con">
+        <div class="pb">
+          <div class="pagebox">
+            <p><div style="text-align: center;">
+	<IMG src="images/13312a133-0.jpg"   style="margin: 0px auto; padding: 0px; border: 0px; max-width: 100%; color: rgb(75, 75, 75); font-family: 微软雅黑; font-size: 14px; line-height: 30px; text-align: center;" /></div>
+  <br> 　　温州1月10日电(周健 戴文琦 戴子豪)1月9日，浙江省温州市公安局鹿城区分局刑侦大队举办认亲仪式。在鹿城与湖南怀化溆浦两地警方的见证下，刘诚(化名)手捧鲜花缓缓推开大门，刘妈妈飞奔上前，一把抱住儿子失声痛哭，刘爸爸也红了眼眶，一家人紧紧相拥。
+  团聚的背后，是一段跨越浙湘两省、一波三折的寻亲记。时光倒回到1999年的11月28日，这天对于曾在怀化务工的刘氏夫妇来说，是一个长达25年的“噩梦”。
+  <br> 　　“那天下午四点半，朱某某来到我们家，说等一下要在我们家吃饭，带刘诚到菜场一起买菜。后来过了个把小时，朱某某和孩子都没有回来，我就出门找，哪知道就找不到了，后来我们就报警了。”回忆至此，刘妈妈泣不成声，责怪自己没有看好当时两岁半的儿子。
+  <br>　　自此，刘氏夫妇便开启了长达25年的艰难寻亲。蹲守交通站点、分发寻人启事、发动亲戚朋友“扫街”寻亲……其间，他们用尽人脉关系，走遍怀化各地，却始终没有发现儿子的踪影。与此同时，溆浦警方也根据刘氏夫妇的描述，在怀化全城搜索朱某某和刘诚的踪迹。但事与愿违，人贩子带着孩子仿佛人间蒸发，杳无音信。
+  <br>　　2000年，侦办该拐卖儿童案的民警联系上刘氏夫妇，表示犯罪嫌疑人朱某某已经被抓获。根据犯罪嫌疑人朱某某供述，刘诚被带到浙江省温州市某县。于是，在民警的陪同下，刘氏夫妇循着犯罪嫌疑人供述的线索来温寻亲，但由于信息缺失，仅有的线索也断了。无奈之下，夫妻俩只得先行回湘。
+  <br>　　“儿子被拐之后，我们就把孩子的照片和信息发到‘宝贝回家’等寻亲网站，后来还在公安局采了血，但是却久久没有好消息传来。”刘妈妈坦言，自从孩子被拐后，她日日盼、夜夜盼，没有睡过一宿安稳觉。
+  <br>　　2006年，刘氏夫妇做了一个大胆的决定，离开湖南老家，来温务工寻找儿子。“我和孩子妈妈都在温州的工厂里面找了工作，下了班就去找孩子，但是温州这么大，并不是那么好找。”刘爸爸说，一边工作一边寻亲的生活，他们俩坚持了3年，直至2009年因家庭原因不得不返回老家。
+  <br>　　另一边，随着年岁增长，刘诚也愈发渴望能够寻找到亲生父母。“小时候的记忆已经很模糊了，只从亲戚口中得知自己不是亲生的。”他说道。
+  <br>　　“2023年12月中旬，刘诚来到我们刑侦大队要求采血。经过检验，我们将数据信息上传至国家打拐数据库进行比对，不久就传来了好消息。”温州市公安局鹿城区分局刑事科学技术研究室民警黄坤玉介绍，数据比对成功后，鹿城警方便联系上溆浦县公安局，请当地刑侦大队的同志重新采集了夫妻二人的血样样本。
+  <br>经过数据检验复核对比，确定刘诚和刘氏夫妇符合生物学亲子关系。“今年元旦前夕，鹿城警方通知我DNA采血寻亲复核比对成功，找到了我的亲生父母，这就像做梦一样。”刘诚如是说。
+  <br>来源：中国新闻网     
+</p>
+            <div align="center"></div>
+          </div>
+        </div>
+      </div>
+      <div class="pgfy">
+        <div class="pgfyl">
+          <p class="last"><a href="16.html"  >上一篇：锦旗背后的专注寻亲团圆</a> </p>
+          <p class="next">下一篇：没有了</p>
+        </div>
+        <div class="pgfyr"><a href="index-6.htm"   title="[返回列表]">[返回列表]</a> </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+  <!--文章内容结束-->
+  <div class="clear"></div>
+</div>
+<!--页尾开始--> 
+<div class="footer"> 
+  
+  
+  <div class="copyright">
+    <div class="copyrightnr"> 电话：400-0000-9988　　手机：138-8888-9988<br />
+    <div class="clear"></div>
+  </div>
+</div>
+ 
+<!--页尾结束-->
+</body>
+</html>

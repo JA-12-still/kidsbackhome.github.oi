@@ -1,0 +1,214 @@
+<html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>宝贝回家</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link href="style.css"   rel="stylesheet">
+<script src="jquery.js"  ></script>
+<script src="pic.js"  ></script>
+<script src="inc.js"  ></script>
+<script src="newspic.js"   ></script>
+<script src="search.js"  ></script>
+<script src="doublescroll.js"   ></script>
+<script src="jquery.validator.js"  ></script>
+<script src="zh_cn.js"  ></script>
+<script src="mobile.js"  ></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+<!--页头开始--> 
+<div class="header"> 
+  <!--顶部开始-->
+  <div class="top">
+    <div class="topCon clear-fix">
+      <ul class="topConNav">
+        <li><a title="人才招聘" href="index-1.htm"   >人才招聘</a></li> 
+        <li><a title="联系我们" href="index-2.htm"   >联系我们</a></li>
+      </ul>
+      <div class="logo"><a href="index.htm"    title="宝贝回家"> <IMG src="logo.png"    width="210" height="195" alt="宝贝回家"></a></div>
+    </div>
+  </div>
+  <!--顶部结束--> 
+  
+  <!--导航开始-->
+  <div class="navgrp">
+    <ul class="nav">
+      <li><a href="index.htm"    title="网站首页"><span>home</span>网站首页</a></li>
+      <li><a href="index-3-1.htm"    title="关于我们"><span>ABOUT US</span>关于我们</a></li>
+      <li><a href="index-4.htm"    title="走失预防"><span>PRODUCTS</span>走失预防</a></li>
+      <li><a href="index-6.htm"    title="案例展示"><span>WORKSHOP</span>案例展示</a></li>
+      <li><a href="index-7.htm"    title="隐私政策"><span>NEWS</span>隐私政策</a></li>
+      <li><a href="index-8.htm"    title="在线留言"><span>Message</span>在线留言</a></li>
+    </ul>
+  </div>
+  <!--导航结束--> 
+  
+  <!--幻灯片图片开始-->
+  
+  <link href="lrtk.css"   rel="stylesheet">
+  <script src="index_solid.js"  ></script>
+  <DIV id=banner>
+    <DIV id=ifocus>
+      <DIV style="OVERFLOW: hidden" id=ifocus_pic>
+        <DIV style="OVERFLOW: hidden; TOP: 0px; LEFT: 0px" id=ifocus_piclist>
+          <UL>
+            <li><a href="javascript:;" target="_blank"><IMG src="04.png"  ></a></li>
+              <li><a href="javascript:;" target="_blank"><IMG src="03.jpg"  ></a></li>
+            </UL>
+          </DIV>
+          <DIV id=ifocus_opdiv></DIV>
+          <!--小图列表-->
+          <DIV id=ifocus_tx>
+            <UL>
+              <LI class=current>
+              <LI class=normal> </LI>
+            </UL>
+          </DIV>
+          <!--小图列表-->
+          <DIV id="ifocus_btn" >
+            <UL id="ifocus_btnUl">
+              <li class="current"><IMG src="04.png"  ></li>
+              <li ><IMG src="03.jpg"  ></li>
+          </UL>
+        </DIV>
+      </DIV>
+    </DIV>
+  </DIV>
+  <script type="text/javascript">
+	var width = (document.getElementById("ifocus_btn").offsetWidth-1000)/2;
+	var obj = document.getElementById('ifocus_btnUl');
+	obj.style.cssText = "width:800px;margin:0 auto";
+</script> 
+  <!--幻灯片图片结束--> 
+</div>
+
+ 
+<!--页头结束-->
+<div class="main"> <div class="left_main"> 
+  
+  <!--产品分类开始-->
+  <div class="procla">
+    <div class="procla_title">社会协助</div>
+    <div class="procla_list">
+      <ul>
+        
+        <li><a href="index-9.htm"   title="温暖志愿者">温暖志愿者</a></li>
+        
+        <li><a href="index-10.htm"   title="社会新闻">社会新闻</a></li>
+        
+        <li><a href="index-11.htm"   title="注爱捐款">注爱捐款</a></li>
+        
+        <li><a href="index-12.htm"   title="爱心法律援助">爱心法律援助</a></li>
+        
+      </ul>
+    </div>
+  </div>
+  <!--产品分类结束--> 
+  
+  <!--最新资讯开始-->
+  <div class="leftnews_title">最新资讯</div>
+  <div class="leftnews_list">
+    <ul>
+<li><a href="2.html"   title="38年寻家，母子团圆">38年寻家，母子团圆</a></li>
+<li><a href="4.html"   title="一气离亲人 流落廿六秋">一气离亲人 流落廿六秋</a></li>
+<li><a href="5.html"   title="深负重致远志不渝 赠人玫瑰留沁香">深负重致远志不渝 赠人玫瑰留沁香</a></li>
+<li><a href="55.html"   title="八年寻亲梦圆">八年寻亲梦圆</a></li>
+
+    </ul>
+  </div>
+  <!--最新资讯结束--> 
+  
+  <!--联系我们开始-->
+  <div class="leftnews_title">联系我们</div>
+  <div class="contactleft">
+    <div class="conleft_title">全国服务热线:</div>
+    <div class="conleft_list"> <span>123-456-7890</span>
+      
+      <dl>
+        <dt>手机：</dt>
+        <dd>138-8888-8888
+      </dl>
+      </dd>
+      <dl>
+        <dt>电话：</dt>
+        <dd>400-0000-9988</dd>
+      </dl>
+      <dl>
+        <dt>邮箱：</dt>
+        <dd>support@baobeihuijia.com</dd>
+      </dl>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <!--联系我们结束--> 
+</div>
+ 
+  <!--产品列表开始-->
+  <div class="main_con">
+    <div class="mainConTitle"> <span class="title">社会新闻</span> <span class="position">当前位置：<a href="javascript:if(confirm('http://127.0.0.32/  \n\n�ļ���δ�� Teleport Pro ȡ�أ���Ϊ �������·��������ʼ��ַ�����õķ�Χ��  \n\n��Ҫ�ӷ������ϴ�����'))window.location='http://127.0.0.32/'" >主页</a> > <a href="index-4.htm"  >社会协作与保障方面</a> > <a href="index-10.htm"  >社会新闻</a> > </span></div>
+    <div class="mainConList"> 
+      <div class="clear"></div>
+<p>
+  <br /> “宝贝回家”源于一位母亲对失散的心痛
+
+  <br />“宝贝回家寻子网站”成立于2007年，2008年在吉林省通化市民政局注册成立宝贝回家志愿者协会。通过15年的努力寻找，站长张宝艳、秦艳友夫妇带领38万志愿者，促成8700多个家庭团圆。这个网站的成立，源于一次张宝艳孩子的意外走失与重逢，短短几个小时的寻找，让张宝艳经历了从天堂到地狱的揪心之痛，也让她对那些失散家庭的痛苦有了一份真切的感受，她想帮助他们。
+
+看着贴在电线杆上斑驳破旧的寻人启事，张宝艳思考着能更快、更有效地寻找被拐孩子的方法。丈夫秦艳友提出建网站，帮助家长展示“寻人启事”。为此，张宝艳果断辞去待遇优厚的工作，“窝居”在家，凭借一台电脑、一部电话和一条网线，创建了“互联网+打拐”模式。
+
+初期一个人的公益之路并不好走，资金问题成了压在她心里的大石头，丈夫的工资维系着网站的维护与家庭开销，家里老人的微词也让她不知何去何从，而2007年6月，一名被拐孩子顺利回家后，给了她干下去的信心与决心。
+
+据悉，志愿者在内蒙发现有个孩子跟着一个乞丐老头在乞讨，于时上前询问，老头在回答时的闪烁其词让志愿者疑窦丛生，从而直接报警，事后证实孩子是从甘肃被拐骗到内蒙的。
+
+建站之初，张宝艳说：“我的初衷就是希望能帮助被拐孩子回家，只要能找回一个孩子，这个网站就值得。”
+
+在张宝艳夫妇的感召下，越来越多的志愿者加入宝贝回家，他们遍布在全国各地，成了宝贝回家寻子网站最坚实的力量。
+
+有家长提出，“有了你们，就有了希望。”“现在我感觉自己已经排上队了，接下来很快就能找到孩子了。”
+
+<br />寻子之路千难万险 爱心资助铺平归家路
+
+<br />寻子之路，千难万险，钱成了压在这些家庭身上的沉重负担，有的家庭为此倾家荡产，寻子之路却不能停歇；而找家的孩子也有诸多困难等待着他们。
+
+宝贝回家通过各种渠道多方筹集资金，对特困或生病的寻子家庭给予资金援助；对无家可归的孩子联系爱心企业给予就业支持；对病残的孩子，联系医院救治；为身患绝症的孩子筹措医疗费，并为其料理后事；对因经济窘迫无法回家的孩子提供路费；对没户籍的孩子，宝贝回家提交报告给公安部，解决户籍；对无身份证无法乘车回家孩子，联系爱心企业自驾跨省接送……
+
+宝贝回家倾尽全力，帮孩子寻家，帮父母寻子。“全国最佳志愿服务组织”“第十二届中国青年志愿者优秀组织”“巾帼文明岗”“全国三八红旗集体”“吉林省五一劳动奖状”等荣誉就是对她们爱心的褒奖。
+
+<br />互联网+点亮团圆的光 党建引领为团圆燃灯
+
+<br />宝贝回家成立之初，志愿者只是单纯的根据家长和孩子提供的信息进行手工比对分析，利用百度地图、谷歌卫星地图缩小范围，走访排查，这样的方式非常耗费人力，张宝艳和秦艳友意识到不能闭门造车，要走出去引进新的技术，实现科技寻人。
+
+通过沟通与交流，IT行业的人脸识别技术加入寻人，一些互联网企业也给予寻人推送，越来越多的媒体也帮助宣传扩大影响力，网站的寻人效率得到大幅提升。
+
+当宝贝回家日趋成熟，志愿者队伍愈发壮大时，张宝艳和秦艳友开始思考如何科学有效的管理志愿者团队，如何用制度来凝聚爱心。2017年，经通化市委组织部同意，宝贝回家志愿者协会党委成立，秦艳友担任党委书记，并按“地缘”分设东北、华北等7个功能型网络党支部和1个通化市域内直属党支部，形成党委统一领导、上下贯通、网络化管理的党建服务格局，让当宝贝回家也有了自己的“家”，让志愿者更加有了干劲。
+
+从2007年自费创建宝贝回家寻子网站始，张宝艳一直为自己的信念在坚守。在她的不懈努力下，宝贝回家寻子网已发展成国内资料全、功能多、寻人效率高、社会关注度广的公益寻人网站，并拓宽了寻人范围，帮助寻找战友、恩人、老师等失联人群。
+
+2021年，为让英雄能够魂归故里，张宝艳又联系了通化市退伍军人事务局，双方达成合作协议，启动《英魂归家》项目，为牺牲的无名烈士寻找亲人，为烈士家属寻找亲人的墓地。
+
+</p>
+    </div>
+    <!--分页样式-->
+    
+    <div class="pagination-wrapper">
+      <div class="pagination"> <li><span class="pageinfo">共 <strong>1</strong>页<strong>5</strong>条记录</span></li>
+ </div>
+    </div>
+  </div>
+  <!--产品列表结束-->
+  <div class="clear"></div>
+</div>
+<!--页尾开始--> 
+<div class="footer"> 
+  
+  <div class="copyright">
+    <div class="copyrightnr"> 电话：400-0000-9988　　手机：138-8888-9988<br />
+    <div class="clear"></div>
+  </div>
+</div>
+ 
+<!--页尾结束-->
+</body>
+</html>

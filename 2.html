@@ -1,0 +1,201 @@
+<html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>宝贝回家</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link href="style.css"   rel="stylesheet">
+<script src="jquery.js"  ></script>
+<script src="pic.js"  ></script>
+<script src="inc.js"  ></script>
+<script src="newspic.js"   ></script>
+<script src="search.js"  ></script>
+<script src="doublescroll.js"   ></script>
+<script src="jquery.validator.js"  ></script>
+<script src="zh_cn.js"  ></script>
+<script src="mobile.js"  ></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+<!--页头开始--> 
+<div class="header"> 
+  <!--顶部开始-->
+  <div class="top">
+    <div class="topCon clear-fix">
+      <ul class="topConNav">
+        <li><a title="人才招聘" href="index-1.htm"   >人才招聘</a></li> 
+        <li><a title="联系我们" href="index-2.htm"   >联系我们</a></li>
+      </ul>
+      <div class="logo"><a href="index.htm"    title="宝贝回家"> <IMG src="logo.png"    width="210" height="195" alt="宝贝回家"></a></div>
+    </div>
+  </div>
+  <!--顶部结束--> 
+  
+  <!--导航开始-->
+  <div class="navgrp">
+    <ul class="nav">
+      <li><a href="index.htm"    title="网站首页"><span>home</span>网站首页</a></li>
+      <li><a href="index-3-1.htm"    title="关于我们"><span>ABOUT US</span>关于我们</a></li>
+      <li><a href="index-4.htm"    title="走失预防"><span>PRODUCTS</span>走失预防</a></li>
+      <li><a href="index-6.htm"    title="案例展示"><span>WORKSHOP</span>案例展示</a></li>
+      <li><a href="index-7.htm"    title="隐私政策"><span>NEWS</span>隐私政策</a></li>
+      <li><a href="index-8.htm"    title="在线留言"><span>Message</span>在线留言</a></li>
+    </ul>
+  </div>
+  <!--导航结束--> 
+  
+  <!--幻灯片图片开始-->
+  
+  <link href="lrtk.css"   rel="stylesheet">
+  <script src="index_solid.js"  ></script>
+  <DIV id=banner>
+    <DIV id=ifocus>
+      <DIV style="OVERFLOW: hidden" id=ifocus_pic>
+        <DIV style="OVERFLOW: hidden; TOP: 0px; LEFT: 0px" id=ifocus_piclist>
+          <UL>
+            <li><a href="javascript:;" target="_blank"><IMG src="04.png"  ></a></li>
+              <li><a href="javascript:;" target="_blank"><IMG src="03.jpg"  ></a></li>
+            </UL>
+          </DIV>
+          <DIV id=ifocus_opdiv></DIV>
+          <!--小图列表-->
+          <DIV id=ifocus_tx>
+            <UL>
+              <LI class=current>
+              <LI class=normal> </LI>
+            </UL>
+          </DIV>
+          <!--小图列表-->
+          <DIV id="ifocus_btn" >
+            <UL id="ifocus_btnUl">
+              <li class="current"><IMG src="04.png"  ></li>
+              <li ><IMG src="03.jpg"  ></li>
+          </UL>
+        </DIV>
+      </DIV>
+    </DIV>
+  </DIV>
+  <script type="text/javascript">
+	var width = (document.getElementById("ifocus_btn").offsetWidth-1000)/2;
+	var obj = document.getElementById('ifocus_btnUl');
+	obj.style.cssText = "width:800px;margin:0 auto";
+</script> 
+  <!--幻灯片图片结束--> 
+</div>
+ 
+<!--页头结束-->
+<div class="main"> <div class="left_main"> 
+  
+  <!--产品分类开始-->
+  <div class="procla">
+    <div class="procla_title">社会协助</div>
+    <div class="procla_list">
+      <ul>
+        
+        <li><a href="index-9.htm"   title="温暖志愿者">温暖志愿者</a></li>
+        
+        <li><a href="index-10.htm"   title="社会新闻">社会新闻</a></li>
+        
+        <li><a href="index-11.htm"   title="注爱捐款">注爱捐款</a></li>
+        
+        <li><a href="index-12.htm"   title="爱心法律援助">爱心法律援助</a></li>
+        
+      </ul>
+    </div>
+  </div>
+  <!--产品分类结束--> 
+  
+  <!--最新资讯开始-->
+  <div class="leftnews_title">最新资讯</div>
+  <div class="leftnews_list">
+    <ul>
+<li><a href="2.html"   title="38年寻家，母子团圆">38年寻家，母子团圆</a></li>
+<li><a href="4.html"   title="一气离亲人 流落廿六秋">一气离亲人 流落廿六秋</a></li>
+<li><a href="5.html"   title="深负重致远志不渝 赠人玫瑰留沁香">深负重致远志不渝 赠人玫瑰留沁香</a></li>
+<li><a href="55.html"   title="八年寻亲梦圆">八年寻亲梦圆</a></li>
+
+    </ul>
+  </div>
+  <!--最新资讯结束--> 
+  
+  <!--联系我们开始-->
+  <div class="leftnews_title">联系我们</div>
+  <div class="contactleft">
+    <div class="conleft_title">全国服务热线:</div>
+    <div class="conleft_list"> <span>123-456-7890</span>
+      
+      <dl>
+        <dt>手机：</dt>
+        <dd>138-8888-8888
+      </dl>
+      </dd>
+      <dl>
+        <dt>电话：</dt>
+        <dd>400-0000-9988</dd>
+      </dl>
+      <dl>
+        <dt>邮箱：</dt>
+        <dd>support@baobeihuijia.com</dd>
+      </dl>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <!--联系我们结束--> 
+</div>
+ 
+  <!--文章内容开始-->
+  <div class="main_con">
+    <div class="mainConTitle"> <span class="title">案例展示</span> <span class="position">当前位置：<a href="javascript:if(confirm('http://127.0.0.32/  \n\n�ļ���δ�� Teleport Pro ȡ�أ���Ϊ �������·��������ʼ��ַ�����õķ�Χ��  \n\n��Ҫ�ӷ������ϴ�����'))window.location='http://127.0.0.32/'" >主页</a> > <a href="index-7.htm"  >新闻资讯</a> > </span></div>
+    <div class="mainContect">
+      <div class="title">38年寻家，母子团圆<span>添加时间：2025-03-01</span></div>
+      <div class="con">
+        <div class="pb">
+          <div class="pagebox">
+            <p>      2018年年底，宝贝回家寻家工作组志愿者蓝天白云接到了小吴的寻亲任务。在进行信息核实过程中，蓝天白云发现，小吴只是听别人说过自己是从山西大同人民医院抱养来的，但对自己的抱养经过却一无所知。蓝天白云希望小吴耐心做养父母的工作，能得到老人支持最好，但心地善良的小吴不忍心为寻亲的事情伤了老人的心。蓝天白云只好发了个简单的帖子。因为没有具体线索，帖子虽然也被广大志愿者进行了转发，但几年过去了一直没有任何进展。
+
+                     2023年春天，小吴突然联系蓝天白云，说养父已去世两年，但养父去世前依然没有告诉他实情。心中苦闷的小吴只好从亲戚里了解，最终他经过努力，从养家姑父那里打听来了重要线索：“当年养父（吴中俊）和养家姑父（仝德平）一起在山西省阳高县离县城一、二十公里的山区养蜂，一个礼拜天，阳高县人民医院院长（常久富）、院主任崔正一同去山区游玩，认识了我养父和姑父，我养父表示希望要个男孩。不久，经一个叫仁立成（音）的中间人将我从医院抱来交给我养父，据说我是1986年阴历7月二十几出生。养家姑父说，仁立成是阳高县城关镇东关人，小名叫二狗，今年大约70岁左右。”
+              
+                     得知这些线索，蓝天白云一边将这一信息更新帖子里，一边向山西志愿者求助，志愿者落天看到小吴的信息后立即反馈自己认识这个中间人仁立成，而且表示这个仁立成应该叫任自清，小名的确叫二狗，年龄也基本一致，并自告奋勇要亲自去走访落实清楚。就在志愿者葡萄非常担心刚刚从医院出院没几天的他是否方便走访时，落天已经通过自己的朋友打听到任自成的家庭住址，并告知第二天就出发去走访。
+              
+                     时间一天天的过去，很快两个月过去了，一直没有结果，大家都担心落天可能因为身体原因不便走访，又暂时找不到其他方便的志愿者，更不忍心催问落天，就在大家静静的期待中，却意外等来了落天因病去世的消息，落天的突然离世，不禁让所有志愿者都感到悲痛和遗憾……
+              
+                     逝者已逝，但寻亲依然要继续。
+              
+                     由于找不到合适的走访志愿者，葡萄提议通过抖音在阳高县扩散寻找知情人，但小吴因为考虑年迈的养母的感受，不希望老母亲受任何伤害，只想悄悄寻找，无奈，蓝天白云只好先安排小吴先采血。
+              
+                     时间到了2024年8月，看到年迈的养母日渐老去，思亲心切的小吴再次向蓝天白云打听寻亲进展，蓝天白云只能请葡萄找找阳高县是否有新的志愿者参与，这次，葡萄发现了阳高志愿者原点，立刻将案例情况告诉了她，请她帮忙寻访。原点在了解小吴的情况后回家跟自己的老父亲聊了这事，哪知热心的老父亲立即联系了在东关居住的老战友进行打听，老战友很快回复在东关的确有个叫二狗的人，但不叫任立成，而是叫仁志清，（这个名字与落天最初认识的任自清同音），在当地开了一个饭馆，老战友因为经常去吃饭，所以非常熟悉他。随后在两位热心老军人的帮助下，很快从仁志清口中获知当年的确经手送养过一个男孩到江苏，并且他与被送养孩子的母亲比较熟悉。
+              
+                     两天后，原点在老父亲和其战友的陪同下见到了仁志清，仁志清回忆了当年的情况：1986年，仁志清也在山上养蜂，与小吴的养父及其姑父都比较熟悉，得知他们想抱养一个男孩，便联系了自己在阳高县某医院工作的朋友，在朋友的帮助下，将刚出生不久准备送养的一个男孩抱走转送给了江苏养蜂人。几天后，在仁志清的帮助下，原点顺利联系上了当年出于无奈送养孩子的母亲叶女士，叶女士得知儿子在找亲人后激动不已，当即表示希望能与儿子认亲团圆。原点立刻指导叶女士采集了血样（父亲因故未采），准备与小吴比对。
+              
+                     9月29日，DNA鉴定结果证实，小吴正是叶女士送养38年的亲生儿子。征求母子俩的意见后，志愿者们为他们交换了联系，双方自行认亲。</p>
+            <div align="center"></div>
+          </div>
+        </div>
+      </div>
+      <div class="pgfy">
+        <div class="pgfyl">
+          <p class="last">上一篇：没有了 </p>
+          <p class="next"><a href="4.html"  >下一篇：一气离亲人 流落廿六秋</a> </p>
+        </div>
+        <div class="pgfyr"><a href="index-7.htm"   title="[返回列表]">[返回列表]</a> </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+  <!--文章内容结束-->
+  <div class="clear"></div>
+</div>
+<!--页尾开始--> 
+<div class="footer"> 
+  
+  <div class="copyright">
+    <div class="copyrightnr"> 电话：400-0000-9988　　手机：138-8888-9988<br />
+    <div class="clear"></div>
+  </div>
+</div>
+ 
+<!--页尾结束-->
+</body>
+</html>

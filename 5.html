@@ -1,0 +1,204 @@
+<html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>宝贝回家</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link href="style.css"   rel="stylesheet">
+<script src="jquery.js"  ></script>
+<script src="pic.js"  ></script>
+<script src="inc.js"  ></script>
+<script src="newspic.js"   ></script>
+<script src="search.js"  ></script>
+<script src="doublescroll.js"   ></script>
+<script src="jquery.validator.js"  ></script>
+<script src="zh_cn.js"  ></script>
+<script src="mobile.js"  ></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+<!--页头开始--> 
+<div class="header"> 
+  <!--顶部开始-->
+  <div class="top">
+    <div class="topCon clear-fix">
+      <ul class="topConNav">
+        <li><a title="人才招聘" href="index-1.htm"   >人才招聘</a></li> 
+        <li><a title="联系我们" href="index-2.htm"   >联系我们</a></li>
+      </ul>
+      <div class="logo"><a href="index.htm"    title="宝贝回家"> <IMG src="logo.png"    width="210" height="195" alt="宝贝回家"></a></div>
+    </div>
+  </div>
+  <!--顶部结束--> 
+  
+  <!--导航开始-->
+  <div class="navgrp">
+    <ul class="nav">
+      <li><a href="index.htm"    title="网站首页"><span>home</span>网站首页</a></li>
+      <li><a href="index-3-1.htm"    title="关于我们"><span>ABOUT US</span>关于我们</a></li>
+      <li><a href="index-4.htm"    title="走失预防"><span>PRODUCTS</span>走失预防</a></li>
+      <li><a href="index-6.htm"    title="案例展示"><span>WORKSHOP</span>案例展示</a></li>
+      <li><a href="index-7.htm"    title="隐私政策"><span>NEWS</span>隐私政策</a></li>
+      <li><a href="index-8.htm"    title="在线留言"><span>Message</span>在线留言</a></li>
+    </ul>
+  </div>
+  <!--导航结束--> 
+  
+  <!--幻灯片图片开始-->
+  
+  <link href="lrtk.css"   rel="stylesheet">
+  <script src="index_solid.js"  ></script>
+  <DIV id=banner>
+    <DIV id=ifocus>
+      <DIV style="OVERFLOW: hidden" id=ifocus_pic>
+        <DIV style="OVERFLOW: hidden; TOP: 0px; LEFT: 0px" id=ifocus_piclist>
+          <UL>
+            <li><a href="javascript:;" target="_blank"><IMG src="04.png"  ></a></li>
+              <li><a href="javascript:;" target="_blank"><IMG src="03.jpg"  ></a></li>
+            </UL>
+          </DIV>
+          <DIV id=ifocus_opdiv></DIV>
+          <!--小图列表-->
+          <DIV id=ifocus_tx>
+            <UL>
+              <LI class=current>
+              <LI class=normal> </LI>
+            </UL>
+          </DIV>
+          <!--小图列表-->
+          <DIV id="ifocus_btn" >
+            <UL id="ifocus_btnUl">
+              <li class="current"><IMG src="04.png"  ></li>
+              <li ><IMG src="03.jpg"  ></li>
+          </UL>
+        </DIV>
+      </DIV>
+    </DIV>
+  </DIV>
+  <script type="text/javascript">
+	var width = (document.getElementById("ifocus_btn").offsetWidth-1000)/2;
+	var obj = document.getElementById('ifocus_btnUl');
+	obj.style.cssText = "width:800px;margin:0 auto";
+</script> 
+  <!--幻灯片图片结束--> 
+</div>
+ 
+<!--页头结束-->
+<div class="main"> <div class="left_main"> 
+  
+  <!--产品分类开始-->
+  <div class="procla">
+    <div class="procla_title">社会协助</div>
+    <div class="procla_list">
+      <ul>
+        
+        <li><a href="index-9.htm"   title="温暖志愿者">温暖志愿者</a></li>
+        
+        <li><a href="index-10.htm"   title="社会新闻">社会新闻</a></li>
+        
+        <li><a href="index-11.htm"   title="注爱捐款">注爱捐款</a></li>
+        
+        <li><a href="index-12.htm"   title="爱心法律援助">爱心法律援助</a></li>
+        
+      </ul>
+    </div>
+  </div>
+  <!--产品分类结束--> 
+  
+  <!--最新资讯开始-->
+  <div class="leftnews_title">最新资讯</div>
+  <div class="leftnews_list">
+    <ul>
+<li><a href="2.html"   title="38年寻家，母子团圆">38年寻家，母子团圆</a></li>
+<li><a href="4.html"   title="一气离亲人 流落廿六秋">一气离亲人 流落廿六秋</a></li>
+<li><a href="5.html"   title="深负重致远志不渝 赠人玫瑰留沁香">深负重致远志不渝 赠人玫瑰留沁香</a></li>
+<li><a href="55.html"   title="八年寻亲梦圆">八年寻亲梦圆</a></li>
+
+    </ul>
+  </div>
+  <!--最新资讯结束--> 
+  
+  <!--联系我们开始-->
+  <div class="leftnews_title">联系我们</div>
+  <div class="contactleft">
+    <div class="conleft_title">全国服务热线:</div>
+    <div class="conleft_list"> <span>123-456-7890</span>
+      
+      <dl>
+        <dt>手机：</dt>
+        <dd>138-8888-8888
+      </dl>
+      </dd>
+      <dl>
+        <dt>电话：</dt>
+        <dd>400-0000-9988</dd>
+      </dl>
+      <dl>
+        <dt>邮箱：</dt>
+        <dd>support@baobeihuijia.com</dd>
+      </dl>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <!--联系我们结束--> 
+</div>
+ 
+  <!--文章内容开始-->
+  <div class="main_con">
+    <div class="mainConTitle"> <span class="title">案例展示</span> <span class="position">当前位置：<a href="javascript:if(confirm('http://127.0.0.32/  \n\n�ļ���δ�� Teleport Pro ȡ�أ���Ϊ �������·��������ʼ��ַ�����õķ�Χ��  \n\n��Ҫ�ӷ������ϴ�����'))window.location='http://127.0.0.32/'" >主页</a> > <a href="index-7.htm"  >新闻资讯</a> > </span></div>
+    <div class="mainContect">
+      <div class="title">深负重致远志不渝 赠人玫瑰留沁香<span>添加时间：2025-02-25</span></div>
+      <div class="con">
+        <div class="pb">
+          <div class="pagebox">
+            <p><p>
+	&nbsp;<br>      一个刚出生几个月大小的娃娃，在他来到这个世间的短短几个月里，他便经历了家庭解体，父亲精神疾病复发，更是与母亲和姐姐生离……少不更事的他，若不是有那对年迈的爷爷奶奶，或许，他很难从他出生的2000年顺利长大到2006年他失踪的年纪。
+  <br>2015年10月，宝贝回家志愿者鹤姐接到网站下发任务，协助一位老奶奶寻找她失踪近十年的孙子高彬。经网站查询，早在2012年，志愿者鑫雨帮助老奶奶发布了帖子，但一直没有线索，后来鑫雨退出，案例就停滞了。联系上老奶奶，鹤姐才发现，老奶奶根本不会打字也不会发信息，登记寻找孙子的求助信息，也是在好心人的帮助下才得以完成的。
+  为了解更多的情况，鹤姐只能一遍遍地拨打老奶奶的电话，慢慢从老奶奶那里搜集到更多线索，然后在鑫雨发布的帖子里补充了更多信息：
+  寻找2000年出生2006年失踪河北省唐山市 高彬152746.
+  <br>电话里，老奶奶告诉鹤姐，当年儿子与儿媳离婚，儿媳带走了大一点的孙女，留下了只知道哭的孙子。儿子经历婚变后，原本就有精神疾病的他，病情更是加重，老两口既要下地种庄稼，又要照顾年幼的孙子，还要时时提防神志不清时会打骂人的儿子。他们的日子，就是在这日复一日的煎熬中，艰辛缓慢地度过着。
+  直到2006年，她那患病的儿子，突然心血来潮，说要出去打工挣钱。年迈的老母又怎能答应，日子虽然过得艰难，但让有精神疾病的儿子出去打工挣钱，她是无论如何都放心不下的，更何况，她的这个患病儿子还口口声声说要带着她孙子高彬一起外出。
+  老人家极力的反对，刺激到儿子敏感的神经，发疯的他，对老母亲一顿猛烈的拳打脚踢，致使老人家腿骨骨折。她无法再阻拦发疯的儿子，儿子带着她不满六岁的孙子走了，去河北唐山打工挣钱去了。
+  他们这一走，就如她担心的一样，她的孙子丢了，她拼了老命去寻找，但孙子却音讯全无。
+  <br> 老人家的遭遇，任谁听了都会难受，鹤姐更是唏嘘不已，暗暗发誓，要拼尽全力替老人家寻回孙子。扩散寻亲消息，比对网上寻家帖子，联系老奶奶住地附近志愿者上门指导老奶奶家儿子采血……鹤姐是一刻也没有停歇。
+  老奶奶家在绥化乡下，当地志愿者安子离老奶奶家最近，但安子要去老奶奶家，路程却不短，且每天仅有一趟车可供来回，为赶上这趟车，安子必须早上6点前出发才能保证当天来回。知道自家孩子此行目的的安子妈妈，不放心安子独自前往，但更多的是心疼老奶奶的不容易，一再坚持要放下工作跟安子一起去老奶奶家。一大早便出门的二人，一路颠簸，沿途打听着找到了老奶奶的家，顺利完成了老奶奶儿子的血样采集工作。
+  然而，由于种种原因，高彬父亲的血样被污染，网站考虑联系高彬姐姐再试试。然而，自打父母离异后，姐姐跟了母亲，鲜少与奶奶和父亲联系，奶奶不清楚孙女在哪里，也不知晓其联系电话。为了配合寻找孙子，奶奶四处打听，最后找到孙女联系电话交给了鹤姐。
+  鹤姐完全没有想到，拨通高彬姐姐电话，谈到寻找高彬问题，还没来得及提及采血事宜，姐姐便已开始破口大骂，完全没有顾忌，没有修饰。高彬姐姐的态度让鹤姐愕然，从她做志愿者以来，她还是第一次遇上姐姐这样的寻亲“家属”。
+  为了替奶奶找到孙子，鹤姐含泪忍受高彬姐姐连珠炮般的粗暴，期待姐姐在发泄完后能稍稍自省，能最后答应协助采血。
+  <br>只可惜，到最后，鹤姐咬牙忍住的委屈也没能换来姐姐稍稍提高一点修养。
+  <br> 在这样的情况下，2021年10月，鹤姐向网站第二次申请为高彬父亲重新协调采血入库事宜。不知道是奶奶的苦苦寻找感动了上天，还是志愿者的全心付出有了回报，在父亲DNA入库后月余，被拐天津的高彬便与父亲血样比中。
+  收到消息的志愿者们，全都激动不已。
+  <br>鹤姐在转达这个好消息前，努力平复过的心情，在听到奶奶及高彬叔叔压抑不住的哭泣声后，再次破防。
+  <br>这一刻，所有委屈和泪水，都在找到孩子后的这一刻，随喜悦的眼泪流淌，挥发。</p>
+            <div align="center"></div>
+          </div>
+        </div>
+      </div>
+      <div class="pgfy">
+        <div class="pgfyl">
+          <p class="last"><a href="4.html"  >上一篇：一气离亲人 流落廿六秋</a> </p>
+          <p class="next"><a href="55.html"  >下一篇：八年寻亲梦圆</a> </p>
+        </div>
+        <div class="pgfyr"><a href="index-7.htm"   title="[返回列表]">[返回列表]</a> </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+  <!--文章内容结束-->
+  <div class="clear"></div>
+</div>
+<!--页尾开始--> 
+<div class="footer"> 
+ 
+  
+  <div class="copyright">
+    <div class="copyrightnr"> 电话：400-0000-9988　　手机：138-8888-9988<br />
+    <div class="clear"></div>
+  </div>
+</div>
+ 
+<!--页尾结束-->
+</body>
+</html>

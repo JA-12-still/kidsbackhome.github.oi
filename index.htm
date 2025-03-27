@@ -1,0 +1,247 @@
+<html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>宝贝回家</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link href="style.css"   rel="stylesheet">
+<script src="jquery.js"  ></script>
+<script src="pic.js"  ></script>
+<script src="inc.js"  ></script>
+<script src="newspic.js"   ></script>
+<script src="search.js"  ></script>
+<script src="doublescroll.js"   ></script>
+<script src="jquery.validator.js"  ></script>
+<script src="zh_cn.js"  ></script>
+<script src="mobile.js"  ></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+<!--页头开始--> 
+<div class="header"> 
+  <!--顶部开始-->
+  <div class="top">
+    <div class="topCon clear-fix">
+      <ul class="topConNav">
+        <li><a title="人才招聘" href="index-1.htm"   >人才招聘</a></li> 
+        <li><a title="联系我们" href="index-2.htm"   >联系我们</a></li>
+      </ul>
+      <div class="logo"><a href="index.htm"    title="宝贝回家"> <IMG src="logo.png"    width="210" height="195" alt="宝贝回家"></a></div>
+    </div>
+  </div>
+  <!--顶部结束--> 
+  
+  <!--导航开始-->
+  <div class="navgrp">
+    <ul class="nav">
+      <li><a href="index.htm"    title="网站首页"><span>home</span>网站首页</a></li>
+      <li><a href="index-3-1.htm"    title="关于我们"><span>ABOUT US</span>关于我们</a></li>
+      <li><a href="index-4.htm"    title="走失预防"><span>PRODUCTS</span>走失预防</a></li>
+      <li><a href="index-6.htm"    title="案例展示"><span>WORKSHOP</span>案例展示</a></li>
+      <li><a href="index-7.htm"    title="隐私政策"><span>NEWS</span>隐私政策</a></li>
+      <li><a href="index-8.htm"    title="在线留言"><span>Message</span>在线留言</a></li>
+    </ul>
+  </div>
+  <!--导航结束--> 
+  
+  <!--幻灯片图片开始-->
+  
+  <link href="lrtk.css"   rel="stylesheet">
+  <script src="index_solid.js"  ></script>
+  <DIV id=banner>
+    <DIV id=ifocus>
+      <DIV style="OVERFLOW: hidden" id=ifocus_pic>
+        <DIV style="OVERFLOW: hidden; TOP: 0px; LEFT: 0px" id=ifocus_piclist>
+          <UL>
+            <li><a href="javascript:;" target="_blank"><IMG src="04.png"  ></a></li>
+              <li><a href="javascript:;" target="_blank"><IMG src="03.jpg"  ></a></li>
+            </UL>
+          </DIV>
+          <DIV id=ifocus_opdiv></DIV>
+          <!--小图列表-->
+          <DIV id=ifocus_tx>
+            <UL>
+              <LI class=current>
+              <LI class=normal> </LI>
+            </UL>
+          </DIV>
+          <!--小图列表-->
+          <DIV id="ifocus_btn" >
+            <UL id="ifocus_btnUl">
+              <li class="current"><IMG src="04.png"  ></li>
+              <li ><IMG src="03.jpg"  ></li>
+          </UL>
+        </DIV>
+      </DIV>
+    </DIV>
+  </DIV>
+  <script type="text/javascript">
+	var width = (document.getElementById("ifocus_btn").offsetWidth-1000)/2;
+	var obj = document.getElementById('ifocus_btnUl');
+	obj.style.cssText = "width:800px;margin:0 auto";
+</script> 
+  <!--幻灯片图片结束--> 
+</div>
+ 
+<!--页头结束-->
+
+<div class="section noticBg">
+  <div class="noticBgW"></div>
+  <div class="notic">
+    <div class="tel">全国服务热线：<span>400-0000-9988</span></div>
+    <!--搜索栏开始-->
+    <div class="search">
+      <form  name="formsearch" class="t_srh fl clear-fix" action="http://demx144.dede58.com/plus/search.php" method="get" onSubmit="return checksearch(this)">
+        <input type="hidden" name="kwtype" value="0" />
+        <input class="text" type="text" name="q" value="请输入关键字" onFocus="if(this.value==defaultValue)this.value=''" onBlur="if(this.value=='')this.value=defaultValue">
+        <input class="btn" type="submit" value="  " title="搜索">
+      </form>
+      <script src="jqselect.js"    type=text/javascript></SCRIPT> 
+      <script type=text/javascript>
+                jQuery(document).ready(function() {
+                    jQuery("#rid").selectbox();
+                });
+</script> 
+    </div>
+    <!--搜索栏结束--> 
+    
+    <!--网站公告开始-->
+    <div class="content">
+      <div class="noticeT">最新公告：</div>
+      <div id="noticeCon">
+        <marquee onMouseOver="this.stop()" onMouseOut="this.start()" scrollamount="4">
+          用爱为每一个孩子照亮回家的路，让更多家庭重拾欢笑！
+        </marquee>
+      </div>
+    </div>
+    <!--网站公告结束--> 
+  </div>
+</div>
+<div class="section ncbg">
+  <div class="ncBody"> 
+    
+    <!--最新资讯开始-->
+    <div class="news">
+      <div class="newsTitle">最新资讯<span> NEWS</span></div>
+      <div class="newsList">
+        <ul>
+          <li><a href="2.html"   title="38年寻家，母子团圆">38年寻家，母子团圆</a></li>
+<li><a href="4.html"   title="一气离亲人 流落廿六秋">一气离亲人 流落廿六秋</a></li>
+<li><a href="5.html"   title="深负重致远志不渝 赠人玫瑰留沁香">深负重致远志不渝 赠人玫瑰留沁香</a></li>
+<li><a href="55.html"   title="八年寻亲梦圆">八年寻亲梦圆</a></li>
+
+        </ul>
+      </div>
+    </div>
+    <!--最新资讯结束--> 
+    
+    <!--联系我们开始-->
+    <div class="contact">
+      <div class="contactTitle">联系我们<span> CONTACT US</span></div>
+      <div class="contactN">
+        <ul>
+          <li>手机：138-8888-8888</li>
+          <li>电话：400-0000-9988</li>
+          <li>support@baobeihuijia.com</li>
+        </ul>
+      </div>
+    </div>
+    <!--联系我们结束-->
+    <div class="clear"></div>
+  </div>
+</div>
+<!--产品展示开始-->
+<div class="section proBg">
+  <div class="proTitleBy">
+    <div class="proTitle">案例展示<span> PRODUCTS</span></div>
+    <div class="more"><a href="index-4.htm"    title="查看更多">[ 更多>> ]</a> </div>
+  </div>
+  <div class="proList"> <dl>
+      <dt><a href="2.html"   title="电渗析印染废水零排放设备"><IMG src="01.jpg"    alt="38年寻家，母子团圆" width="308" height="230" class="PicAuto"></a></dt>
+      <dd><a href="2.html"   title="电渗析印染废水零排放设备">38年寻家，母子团圆</a></dd>
+    </dl>
+<dl>
+      <dt><a href="4.html"   title="电渗析电镀废水零排放设备"><IMG src="01.jpg"    alt="一气离亲人 流落廿六秋" width="308" height="230" class="PicAuto"></a></dt>
+      <dd><a href="4.html"   title="电渗析电镀废水零排放设备">一气离亲人 流落廿六秋</a></dd>
+    </dl>
+<dl>
+      <dt><a href="5.html"   title="电渗析脱盐系统"><IMG src="01.jpg"    alt="深负重致远志不渝 赠人玫瑰留沁香" width="308" height="230" class="PicAuto"></a></dt>
+      <dd><a href="5.html"   title="电渗析脱盐系统">深负重致远志不渝 赠人玫瑰留沁香</a></dd>
+    </dl>
+<dl>
+      <dt><a href="55.html"   title="电渗析设备"><IMG src="01.jpg"    alt="八年寻亲梦圆" width="308" height="230" class="PicAuto"></a></dt>
+      <dd><a href="55.html"   title="电渗析设备">八年寻亲梦圆</a></dd>
+    </dl>
+<dl>
+      <dt><a href="16.html"   title="均相膜电渗析系统"><IMG src="01.jpg"    alt="锦旗背后的专注寻亲团圆" width="308" height="230" class="PicAuto"></a></dt>
+      <dd><a href="16.html"   title="均相膜电渗析系统">锦旗背后的专注寻亲团圆</a></dd>
+    </dl>
+<dl>
+      <dt><a href="17.html"   title="废碱处理系统"><IMG src="01.jpg"    alt="大爱寻亲，温暖团圆" width="308" height="230" class="PicAuto"></a></dt>
+      <dd><a href="17.html"   title="废碱处理系统">大爱寻亲，温暖团圆</a></dd>
+    </dl>
+
+    <div class="clear"></div>
+  </div>
+</div>
+<!--产品展示结束-->
+
+<div class="section chBg"> 
+  <!--关于我们开始-->
+  <div class="company">
+    <div class="Title">
+      <div class="TitleF">关于我们<span> ABOUT US</span></div>
+      <div class="more2"><a href="index-3-1.htm"    title="查看更多">[ 更多>> ]</a></div>
+    </div>
+    <dl class="clear-fix">
+      <dt><IMG src="logo.png"    width="224" height="166" class="PicAuto"></dt>
+      <dd>
+        <p>　　“宝贝回家”网页是一个致力于帮助寻找失踪儿童和亲人的公益平台。我们希望通过技术的力量，帮助更多家庭团聚，为社会贡献一份力量。我们的使命是通过互联网技术，提供一个高效、便捷的平台，帮助失踪儿童的家人和社会各界人士共同寻找失踪儿童。我们相信，每一个孩子都应该有一个温暖的家，每一个家庭都不应承受分离的痛苦。我们是一群来自计算机专业的学生，怀着对社会的责任感，开发了这个网页。我们希望通过我们的努力，能够为社会的公益事业贡献一份力量。
+          </p>
+      </dd>
+    </dl>
+  </div>
+  <!--关于我们结束--> 
+  
+  
+</div>
+
+<!--车间展示开始-->
+<div class="section caseBg">
+  <div class="caseTitle">
+    <div class="Title2">
+      <div class="TitleF2">成功案例<span> WORKSHOP</span></div>
+      <div class="more3"><a href="index-9.htm"    title="查看更多">[ 更多>> ]</a></div>
+    </div>
+  </div>
+  <div id="caseList">
+    <div id="caseListIn">
+      <div id="caseList1">
+        <ul>
+          <li><a href="16.html"   title="成功案例"><IMG src="01.jpg"    alt="成功案例" width="224" height="166" class="picAuto"><span>成功案例</span></a></li>
+<li><a href="17.html"   title="成功案例"><IMG src="01.jpg"    alt="成功案例" width="224" height="166" class="picAuto"><span>成功案例</span></a></li>
+<li><a href="55.html"   title="成功案例"><IMG src="01.jpg"    alt="成功案例" width="224" height="166" class="picAuto"><span>成功案例</span></a></li>
+<li><a href="5.html"   title="成功案例"><IMG src="01.jpg"    alt="成功案例" width="224" height="166" class="picAuto"><span>成功案例</span></a></li>
+
+        </ul>
+      </div>
+      <div id="caseList2"></div>
+    </div>
+  </div>
+</div>
+<!--车间展示结束--> 
+<!--页尾开始--> 
+<div class="footer">
+  
+  <div class="copyright">
+    <div class="copyrightnr"> 电话：400-0000-9988　　手机：138-8888-9988<br />
+    <div class="clear"></div>
+  </div>
+</div>
+ 
+<!--页尾结束-->
+</body>
+<script   type="text/javascript"></script> 
+</html>

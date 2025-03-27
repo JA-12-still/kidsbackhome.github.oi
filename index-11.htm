@@ -1,0 +1,241 @@
+<html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>宝贝回家</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link href="style.css"   rel="stylesheet">
+<script src="jquery.js"  ></script>
+<script src="pic.js"  ></script>
+<script src="inc.js"  ></script>
+<script src="newspic.js"   ></script>
+<script src="search.js"  ></script>
+<script src="doublescroll.js"   ></script>
+<script src="jquery.validator.js"  ></script>
+<script src="zh_cn.js"  ></script>
+<script src="mobile.js"  ></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+<!--页头开始--> 
+<div class="header"> 
+  <!--顶部开始-->
+  <div class="top">
+    <div class="topCon clear-fix">
+      <ul class="topConNav">
+        <li><a title="人才招聘" href="index-1.htm"   >人才招聘</a></li> 
+        <li><a title="联系我们" href="index-2.htm"   >联系我们</a></li>
+      </ul>
+      <div class="logo"><a href="index.htm"    title="宝贝回家"> <IMG src="logo.png"    width="210" height="195" alt="宝贝回家"></a></div>
+    </div>
+  </div>
+  <!--顶部结束--> 
+  
+  <!--导航开始-->
+  <div class="navgrp">
+    <ul class="nav">
+      <li><a href="index.htm"    title="网站首页"><span>home</span>网站首页</a></li>
+      <li><a href="index-3-1.htm"    title="关于我们"><span>ABOUT US</span>关于我们</a></li>
+      <li><a href="index-4.htm"    title="走失预防"><span>PRODUCTS</span>走失预防</a></li>
+      <li><a href="index-6.htm"    title="案例展示"><span>WORKSHOP</span>案例展示</a></li>
+      <li><a href="index-7.htm"    title="隐私政策"><span>NEWS</span>隐私政策</a></li>
+      <li><a href="index-8.htm"    title="在线留言"><span>Message</span>在线留言</a></li>
+    </ul>
+  </div>
+  <!--导航结束--> 
+  
+  <!--幻灯片图片开始-->
+  
+  <link href="lrtk.css"   rel="stylesheet">
+  <script src="index_solid.js"  ></script>
+  <DIV id=banner>
+    <DIV id=ifocus>
+      <DIV style="OVERFLOW: hidden" id=ifocus_pic>
+        <DIV style="OVERFLOW: hidden; TOP: 0px; LEFT: 0px" id=ifocus_piclist>
+          <UL>
+            <li><a href="javascript:;" target="_blank"><IMG src="04.png"  ></a></li>
+              <li><a href="javascript:;" target="_blank"><IMG src="03.jpg"  ></a></li>
+            </UL>
+          </DIV>
+          <DIV id=ifocus_opdiv></DIV>
+          <!--小图列表-->
+          <DIV id=ifocus_tx>
+            <UL>
+              <LI class=current>
+              <LI class=normal> </LI>
+            </UL>
+          </DIV>
+          <!--小图列表-->
+          <DIV id="ifocus_btn" >
+            <UL id="ifocus_btnUl">
+              <li class="current"><IMG src="04.png"  ></li>
+              <li ><IMG src="03.jpg"  ></li>
+          </UL>
+        </DIV>
+      </DIV>
+    </DIV>
+  </DIV>
+  <script type="text/javascript">
+	var width = (document.getElementById("ifocus_btn").offsetWidth-1000)/2;
+	var obj = document.getElementById('ifocus_btnUl');
+	obj.style.cssText = "width:800px;margin:0 auto";
+</script> 
+  <!--幻灯片图片结束--> 
+</div>
+
+ 
+<!--页头结束-->
+<div class="main"> <div class="left_main"> 
+  
+  <!--产品分类开始-->
+  <div class="procla">
+    <div class="procla_title">社会协助</div>
+    <div class="procla_list">
+      <ul>
+        
+        <li><a href="index-9.htm"   title="温暖志愿者">温暖志愿者</a></li>
+        
+        <li><a href="index-10.htm"   title="社会新闻">社会新闻</a></li>
+        
+        <li><a href="index-11.htm"   title="注爱捐款">注爱捐款</a></li>
+        
+        <li><a href="index-12.htm"   title="爱心法律援助">爱心法律援助</a></li>
+        
+      </ul>
+    </div>
+  </div>
+  <!--产品分类结束--> 
+  
+  <!--最新资讯开始-->
+  <div class="leftnews_title">最新资讯</div>
+  <div class="leftnews_list">
+    <ul>
+<li><a href="2.html"   title="38年寻家，母子团圆">38年寻家，母子团圆</a></li>
+<li><a href="4.html"   title="一气离亲人 流落廿六秋">一气离亲人 流落廿六秋</a></li>
+<li><a href="5.html"   title="深负重致远志不渝 赠人玫瑰留沁香">深负重致远志不渝 赠人玫瑰留沁香</a></li>
+<li><a href="55.html"   title="八年寻亲梦圆">八年寻亲梦圆</a></li>
+
+    </ul>
+  </div>
+  <!--最新资讯结束--> 
+  
+  <!--联系我们开始-->
+  <div class="leftnews_title">联系我们</div>
+  <div class="contactleft">
+    <div class="conleft_title">全国服务热线:</div>
+    <div class="conleft_list"> <span>123-456-7890</span>
+      
+      <dl>
+        <dt>手机：</dt>
+        <dd>138-8888-8888
+      </dl>
+      </dd>
+      <dl>
+        <dt>电话：</dt>
+        <dd>400-0000-9988</dd>
+      </dl>
+      <dl>
+        <dt>邮箱：</dt>
+        <dd>support@baobeihuijia.com</dd>
+      </dl>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <!--联系我们结束--> 
+</div>
+ 
+  <!--产品列表开始-->
+  <div class="main_con">
+    <div class="mainConTitle"> <span class="title">注爱捐款</span> <span class="position">当前位置：<a href="javascript:if(confirm('http://127.0.0.32/  \n\n�ļ���δ�� Teleport Pro ȡ�أ���Ϊ �������·��������ʼ��ַ�����õķ�Χ��  \n\n��Ҫ�ӷ������ϴ�����'))window.location='http://127.0.0.32/'" >主页</a> > <a href="index-4.htm"  >社会协作与保障方面</a> > <a href="index-11.htm"  >注爱捐款</a> > </span></div>
+    <div class="mainConList"> 
+      <div class="clear"></div>
+      <p>
+        <br />捐款须知
+ 
+        <br />亲爱的爱心人士：
+         
+        <br />衷心感谢您对我们的关注与支持！[宝贝回家]以“寻亲”为主题，致力于帮助失散的亲人团聚，搭建起寻找与被寻找之间的桥梁。为了让您更全面、清晰地了解捐款相关事宜，特制定本捐款须知，请您在捐款前仔细阅读。
+         
+        <br />一、网站介绍
+         
+        <br />[宝贝回家]自2024成立以来，一直专注于寻人公益事业。我们凭借先进的互联网技术和专业的寻人团队，整合各方资源，为无数家庭带来了希望。通过发布寻人启事、收集线索确保每一次寻找都精准有效。
+         
+        <br />二、捐款目的
+         
+        <br />网站运营维护：为保证网站24小时稳定运行，我们需要持续投入资金用于服务器租赁、网络带宽升级、系统安全维护等。这些基础投入是确保寻人信息能够及时发布、线索有效收集与整理的关键。例如，服务器的稳定运行直接关系到大量寻人数据的存储与调用，一旦出现故障，可能导致重要线索的丢失或延误寻找时机。
+        寻人服务支持：寻人工作需要专业团队的不懈努力，包括寻人信息审核人员、线索跟进专员、与警方及其他公益组织对接的协调人员等。捐款将用于支付这些工作人员的薪酬，以及培训费用，提升他们的专业能力，更好地为寻人事业服务。此外，还将用于寻人活动的开展，如实地走访、调查取证等产生的交通、食宿等费用。
+         
+        <br />三、捐款方式
+         
+        <br /> 在线支付
+        <br /> - 微信支付：您可以通过添加本站官方微信：babyhomeback888，进行转账捐款
+         
+        <br />四、捐款金额
+         
+        <br />捐款金额完全由您自主决定，无论多少，每一份爱心都对我们的寻人事业至关重要。哪怕是微小的数额，聚沙成塔，都能为寻找失散亲人增添一份力量。我们深知每一笔捐款背后都是您对团圆的美好期许，因此我们会倍加珍惜每一分善款，确保其发挥最大价值。
+         
+        <br />五、捐款凭证
+         
+        <br />在线支付凭证：通过微信、支付宝或银联在线支付成功后，您将立即收到支付平台生成的电子支付凭证，该凭证可作为您的捐款证明。同时，我们也会在网站后台记录您的捐款信息，您可以在个人中心查看捐款详情。
+        <br />银行转账及邮局汇款凭证：如果您选择银行转账或邮局汇款，在款项到账后，我们将根据您提供的联系方式，通过电子邮件或短信的方式向您发送捐款收据。如果您需要纸质捐款收据，可在捐款时注明，并留下详细的邮寄地址，我们将在收到款项后的10个工作日内为您寄出。
+         
+        <br />六、捐款使用与公开
+         
+        <br />专款专用：我们严格遵循专款专用原则，所有捐款将全部用于网站的运营维护以及寻人相关工作，不会挪作他用。每一笔捐款的流向都将受到严格的财务监管，确保资金使用合法合规。
+        <br />定期公开：为了保障捐款人的知情权，我们会定期在网站首页显著位置公布捐款收支明细，包括捐款金额、捐款人姓名（匿名捐款者以匿名方式显示）、捐款使用项目、支出金额等详细信息。公布周期为每季度一次，您可以随时查阅，监督我们的工作。
+        <br />审计监督：我们还会邀请专业的第三方审计机构对年度捐款收支情况进行全面审计，并将审计报告在网站上公开。通过专业审计，进一步确保捐款使用的透明度和合理性，让您的爱心得到最有力的保障。
+         
+        <br />七、隐私保护
+         
+        <br />信息收集：在您捐款过程中，我们仅收集必要的信息，如姓名、联系方式、捐款金额、捐款方式等，用于与您沟通捐款事宜、提供捐款凭证以及向您反馈捐款使用情况。
+        <br />保密措施：我们采用严格的数据加密和安全防护措施，确保您的个人信息不被泄露。未经您的明确同意，我们不会将您的个人信息提供给任何第三方，法律另有规定的除外。
+        <br />匿名捐款：如果您希望匿名捐款，请在捐款时注明，我们将尊重您的意愿，在所有公开信息中对您的身份予以保密。
+         
+        <br />八、退款政策
+         
+        <br />一般情况：由于捐款主要用于支持寻人公益事业的持续开展，捐款一旦完成，原则上不予退还。但如遇特殊情况，如捐款重复支付、系统故障导致的错误扣款等，我们将在核实情况后的15个工作日内为您办理退款手续，退款将按照原支付路径返回。
+        <br />特殊情况申请：如果您因特殊原因需要申请退款，请及时与我们联系，说明退款原因，并提供相关证明材料。我们将根据实际情况进行评估，在合理范围内为您办理退款。
+         
+        <br />九、反馈与建议
+         
+        <br />沟通渠道：我们非常重视您的意见和建议，您可以通过以下方式与我们联系：
+        <br />客服电话：[电话号码]，工作时间为[具体时间段]，我们的客服人员将竭诚为您服务。
+        <br />电子邮箱：[邮箱地址]，您可以随时发送邮件，我们会在收到邮件后的3个工作日内回复您。
+        <br />在线留言：在网站首页底部找到“联系我们”板块，点击“在线留言”，填写您的问题和建议，我们会及时处理并回复。
+        <br />意见处理：对于您提出的每一条反馈和建议，我们都会认真对待，及时进行调查和处理。如果是关于捐款相关的问题，我们将尽快为您解决；如果是对网站建设或寻人工作的建议，我们会组织专业人员进行评估，合理的建议将被采纳并应用到实际工作中。我们致力于不断改进和完善我们的工作，以更好地服务于广大爱心人士和需要帮助的家庭。
+         
+        <br /> 十、法律声明
+         
+        <br />合法性：本网站的所有捐款活动均符合国家相关法律法规的规定。我们严格遵守慈善法、公益事业捐赠法等法律法规，确保捐款活动的合法合规开展。
+        责任限制：在法律允许的范围内，对于因不可抗力、网络故障、第三方原因等导致的捐款异常或其他损失，我们不承担法律责任。但我们会尽力采取措施减少损失，并及时通知您相关情况。
+        争议解决：如果您与我们在捐款事宜上发生争议，双方应首先友好协商解决；协商不成的，任何一方均有权向有管辖权的人民法院提起诉讼。
+         
+        <br />再次感谢您对[网站名称]的信任与支持！您的每一份爱心捐款都承载着无数家庭团圆的希望，让我们携手共进，为实现“宝贝回家”的美好愿景而努力！
+      </p>
+    </div>
+    <!--分页样式-->
+    
+    <div class="pagination-wrapper">
+      <div class="pagination"> <li><span class="pageinfo">共 <strong>1</strong>页<strong>1</strong>条记录</span></li>
+ </div>
+    </div>
+  </div>
+  <!--产品列表结束-->
+  <div class="clear"></div>
+</div>
+<!--页尾开始--> 
+<div class="footer"> 
+  
+  
+  <div class="copyright">
+    <div class="copyrightnr"> 电话：400-0000-9988　　手机：138-8888-9988<br />
+      
+    <div class="clear"></div>
+  </div>
+</div>
+ 
+<!--页尾结束-->
+</body>
+</html>
